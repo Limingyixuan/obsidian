@@ -10,6 +10,10 @@
 1、localize
 v. 使局限（于某地区）；使局部化；找出…的地点；发现…的位置； 网络释义： 本土化；地方化；定位
 identify and ==localize== small objects.
+
+### P
+1、predominantly
+、主要的
 ### v
 1、variability
 n. 可变性；易变性；反复不定； 网络释义： 变异性；变化性；变异度

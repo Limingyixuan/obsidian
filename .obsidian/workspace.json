@@ -11,14 +11,17 @@
             "id": "3449cb9954a6664f",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "canvas",
               "state": {
-                "file": "UAV/SPAR.md",
-                "mode": "source",
-                "source": false
+                "file": "未命名.canvas",
+                "viewState": {
+                  "x": 342,
+                  "y": -263,
+                  "zoom": 0
+                }
               },
-              "icon": "lucide-file",
-              "title": "SPAR"
+              "icon": "lucide-layout-dashboard",
+              "title": "未命名"
             }
           }
         ]
@@ -193,8 +196,14 @@
   },
   "active": "3449cb9954a6664f",
   "lastOpenFiles": [
-    "drone_cv/readme.md",
+    "v.md",
+    "未命名.canvas",
+    "english/word.md",
+    "english/english",
     "UAV/SPAR.md",
+    "english/未命名看板.md",
+    "english",
+    "drone_cv/readme.md",
     "UAV"
   ]
 }

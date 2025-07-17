@@ -1,0 +1,11 @@
+{
+	"nodes":[
+		{"id":"130a63efd52f4ec1","x":-125,"y":-30,"width":250,"height":60,"type":"text","text":"english tree\n"},
+		{"id":"7b0a99ed1185ceb6","x":80,"y":-280,"width":250,"height":60,"type":"text","text":"word"},
+		{"id":"2c621240e9d9df6f","x":251,"y":-478,"width":250,"height":60,"type":"text","text":"[[v]]"}
+	],
+	"edges":[
+		{"id":"92c1b83911d7e592","fromNode":"130a63efd52f4ec1","fromSide":"top","toNode":"7b0a99ed1185ceb6","toSide":"bottom"},
+		{"id":"66f68c9cdcca3bf0","fromNode":"7b0a99ed1185ceb6","fromSide":"top","toNode":"2c621240e9d9df6f","toSide":"bottom"}
+	]
+}

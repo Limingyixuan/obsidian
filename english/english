@@ -1,0 +1,9 @@
+{
+	"nodes":[
+		{"id":"ab5244e91531fb1b","x":-100,"y":-20,"width":225,"height":50,"type":"text","text":"单词树"},
+		{"id":"2f230dd9edc06d01","x":81,"y":198,"width":250,"height":60,"type":"text","text":"v"}
+	],
+	"edges":[
+		{"id":"cbda8f018f0c2645","fromNode":"ab5244e91531fb1b","fromSide":"bottom","toNode":"2f230dd9edc06d01","toSide":"top"}
+	]
+}

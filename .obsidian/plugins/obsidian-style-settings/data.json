@@ -1,0 +1,9 @@
+{
+  "blue-topaz-theme@@color-scheme-options": "color-scheme-options-chocolate-topaz",
+  "Blue-Topaz-Codebox-Highlight@@code-theme-selection": "code-theme-solarized-light",
+  "blue-topaz-theme@@text-indentation-two-em": true,
+  "blue-topaz-theme@@activeline-background@@light": "#016E85",
+  "blue-topaz-theme@@activeline-background@@dark": "#016E85",
+  "blue-topaz-theme@@retain-header-color": false,
+  "blue-topaz-theme@@tab-head-style": "transparent-tab-style"
+}

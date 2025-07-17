@@ -5,3 +5,11 @@ identify and ==localize== small objects.
 ### v
 1、variability
 n. 可变性；易变性；反复不定； 网络释义： 变异性；变化性；变异度
+
+
+### I
+1、incorporate：
+合并
+
+2、interpretations
+n. 解释；表演；翻译； 网络释义： 说明；解释公报；条款解释

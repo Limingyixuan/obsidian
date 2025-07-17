@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "english/word.md",
+                "file": "UAV/SPAR.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "word"
+              "title": "SPAR"
             }
           }
         ]
@@ -169,13 +169,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "english/word.md",
+                "file": "UAV/SPAR.md",
                 "followCursor": true,
                 "showSearch": true,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "word 的大纲"
+              "title": "SPAR 的大纲"
             }
           },
           {
@@ -223,8 +223,8 @@
   },
   "active": "3449cb9954a6664f",
   "lastOpenFiles": [
-    "UAV/SPAR.md",
     "english/word.md",
+    "UAV/SPAR.md",
     "v.md",
     "english/未命名.canvas",
     "english/english",

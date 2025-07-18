@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "UAV/DERT.md",
+                "file": "UAV/SPAR.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "DERT"
+              "title": "SPAR"
             }
           },
           {
@@ -183,13 +183,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "UAV/DERT.md",
+                "file": "UAV/SPAR.md",
                 "followCursor": true,
                 "showSearch": true,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "DERT 的大纲"
+              "title": "SPAR 的大纲"
             }
           },
           {
@@ -238,10 +238,10 @@
   "active": "3449cb9954a6664f",
   "lastOpenFiles": [
     "UAV/UAV-DERT.md",
+    "UAV/SPAR.md",
+    "UAV/NMS.md",
     "UAV/DERT.md",
     "english/word.md",
-    "UAV/NMS.md",
-    "UAV/SPAR.md",
     "通用/评价标准.md",
     "drone_cv/readme.md",
     "通用",

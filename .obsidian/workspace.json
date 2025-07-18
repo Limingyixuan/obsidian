@@ -99,19 +99,9 @@
               "icon": "sheets-in-box",
               "title": "File Tree"
             }
-          },
-          {
-            "id": "ebc5c84fc8e9c8f3",
-            "type": "leaf",
-            "state": {
-              "type": "file-tree-view",
-              "state": {},
-              "icon": "sheets-in-box",
-              "title": "File Tree"
-            }
           }
         ],
-        "currentTab": 4
+        "currentTab": 3
       },
       {
         "id": "26cff3d649175ac9",
@@ -131,8 +121,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "right": {
     "id": "18a9bd2e72a5bcaa",
@@ -209,8 +198,8 @@
             "state": {
               "type": "calendar",
               "state": {},
-              "icon": "lucide-file",
-              "title": "插件不再活动"
+              "icon": "calendar-with-checkmark",
+              "title": "Calendar"
             }
           },
           {
@@ -219,17 +208,16 @@
             "state": {
               "type": "git-view",
               "state": {},
-              "icon": "lucide-file",
-              "title": "插件不再活动"
+              "icon": "git-pull-request",
+              "title": "Source Control"
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 5
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -252,12 +240,11 @@
     "UAV/image/Pasted image 20250718164446.png",
     "UAV/image/Pasted image 20250718163933.png",
     "UAV/image",
+    "UAV/NMS.md",
+    "UAV/SPAR.md",
     "UAV/UAV-DETR.md",
     "UAV/transformer.md",
     "UAV/DETR.md",
-    "UAV/DERT.md",
-    "UAV/SPAR.md",
-    "UAV/NMS.md",
     "english/word.md",
     "通用/评价标准.md",
     "drone_cv/readme.md",

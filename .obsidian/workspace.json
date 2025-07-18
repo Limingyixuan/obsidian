@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "UAV/DERT.md",
+                "file": "UAV/UAV-DETR.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "DERT"
+              "title": "UAV-DETR"
             }
           },
           {
@@ -183,13 +183,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "UAV/DERT.md",
+                "file": "UAV/UAV-DETR.md",
                 "followCursor": true,
                 "showSearch": true,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "DERT 的大纲"
+              "title": "UAV-DETR 的大纲"
             }
           },
           {
@@ -237,10 +237,10 @@
   },
   "active": "3449cb9954a6664f",
   "lastOpenFiles": [
-    "UAV/SPAR.md",
-    "UAV/UAV-DERT.md",
-    "UAV/NMS.md",
     "UAV/DERT.md",
+    "UAV/SPAR.md",
+    "UAV/UAV-DETR.md",
+    "UAV/NMS.md",
     "english/word.md",
     "通用/评价标准.md",
     "drone_cv/readme.md",

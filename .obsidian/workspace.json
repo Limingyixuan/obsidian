@@ -131,8 +131,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "right": {
     "id": "18a9bd2e72a5bcaa",
@@ -194,13 +193,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "UAV/UAV-DETR.md",
+                "file": "UAV/transformer.md",
                 "followCursor": true,
                 "showSearch": true,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "UAV-DETR 的大纲"
+              "title": "transformer 的大纲"
             }
           },
           {
@@ -228,8 +227,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -248,6 +246,7 @@
   },
   "active": "3449cb9954a6664f",
   "lastOpenFiles": [
+    "UAV/image/Pasted image 20250718164446.png",
     "UAV/image/Pasted image 20250718163933.png",
     "UAV/image",
     "UAV/UAV-DETR.md",

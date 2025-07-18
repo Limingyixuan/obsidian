@@ -2,6 +2,8 @@
 ### E
 1、extensive：
 大量的
+2、eliminate:
+消除。
 
 #### G
 1、generate

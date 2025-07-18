@@ -5,3 +5,4 @@ UAV目标检测有两个难点，Small和Occlusion（闭塞）。
 以往的UAV-OD模型用yolo系列的模型进行检测，这些模型需要用NMS进行后续处理，而NMS会降低推理速度，影响推理精度。
 [NMS](NMS.md)笔记链接
 而RT-DETR是第一个实时的端到端的目标检测模型，且消除了NMS的影响。
+

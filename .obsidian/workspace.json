@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "UAV/UAV-DETR.md",
+                "file": "UAV/transformer.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "UAV-DETR"
+              "title": "transformer"
             }
           },
           {
@@ -183,13 +183,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "UAV/UAV-DETR.md",
+                "file": "UAV/transformer.md",
                 "followCursor": true,
                 "showSearch": true,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "UAV-DETR 的大纲"
+              "title": "transformer 的大纲"
             }
           },
           {
@@ -237,10 +237,11 @@
   },
   "active": "3449cb9954a6664f",
   "lastOpenFiles": [
-    "UAV/DERT.md",
+    "UAV/NMS.md",
     "UAV/SPAR.md",
     "UAV/UAV-DETR.md",
-    "UAV/NMS.md",
+    "UAV/transformer.md",
+    "UAV/DETR.md",
     "english/word.md",
     "通用/评价标准.md",
     "drone_cv/readme.md",

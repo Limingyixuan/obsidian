@@ -116,7 +116,10 @@ class Transformer(nn.Module):
             d_word_vec=d_word_vec, d_model=d_model, d_inner=d_inner,  
             n_layers=n_layers, n_head=n_head, d_k=d_k, d_v=d_v,  
             pad_idx=trg_pad_idx, dropout=dropout, scale_emb=scale_emb)  
-  
+
+
+
+		#用于将 Transformer 解码器的输出映射到目标词汇表空间 
         self.trg_word_prj = nn.Linear(d_model, n_trg_vocab, bias=False)  
   
         for p in self.parameters():  

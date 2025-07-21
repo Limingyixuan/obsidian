@@ -93,8 +93,14 @@ class Transformer(nn.Module):
   
        
         assert scale_emb_or_prj in ['emb', 'prj', 'none']  
+		### scale_emb_or_prj的值必须是这三个里的其中给之一
+
+		# `scale_emb` 是一个布尔值，用于决定是否对嵌入层的输出进行缩放。
         scale_emb = (scale_emb_or_prj == 'emb') if trg_emb_prj_weight_sharing else False  
-        self.scale_prj = (scale_emb_or_prj == 'prj') if trg_emb_prj_weight_sharing else False  
+        
+        # - `scale_prj` 是一个布尔值，用于决定是否对投影层的输出进行缩放。
+        self.scale_prj = (scale_emb_or_prj == 'prj') if trg_emb_prj_weight_sharing else False 
+         
         self.d_model = d_model  
 
 

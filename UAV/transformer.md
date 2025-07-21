@@ -35,3 +35,4 @@ transformer的架构:
 transformer使用了注意力机制但是完全舍弃了RNN，完全基于自注意力机制。
 ![](Pasted%20image%2020250718163933.png)
 
+步骤：词嵌入，位置编码

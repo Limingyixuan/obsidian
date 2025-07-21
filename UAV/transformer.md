@@ -77,6 +77,7 @@ class Transformer(nn.Module):
 		n_layers=6：编码器和解码器堆叠的个数
 		n_head=8,：多头注意力机制的头的数目
 		d_k=64，d_v=64：键和值的维度
+		n_position:位置编码的最大位置数。
 
 		//
     def __init__(  
@@ -90,13 +91,14 @@ class Transformer(nn.Module):
   
         self.src_pad_idx, self.trg_pad_idx = src_pad_idx, trg_pad_idx  
   
-        # In section 3.4 of paper "Attention Is All You Need", there is such detail:  
-        # "In our model, we share the same weight matrix between the two        # embedding layers and the pre-softmax linear transformation...        # In the embedding layers, we multiply those weights by \sqrt{d_model}".        #        # Options here:        #   'emb': multiply \sqrt{d_model} to embedding output        #   'prj': multiply (\sqrt{d_model} ^ -1) to linear projection output        #   'none': no multiplication  
+       
         assert scale_emb_or_prj in ['emb', 'prj', 'none']  
         scale_emb = (scale_emb_or_prj == 'emb') if trg_emb_prj_weight_sharing else False  
         self.scale_prj = (scale_emb_or_prj == 'prj') if trg_emb_prj_weight_sharing else False  
         self.d_model = d_model  
-  
+
+
+		#编码器和解码器初始化。
         self.encoder = Encoder(  
             n_src_vocab=n_src_vocab, n_position=n_position,  
             d_word_vec=d_word_vec, d_model=d_model, d_inner=d_inner,  

@@ -9,3 +9,5 @@ transformer的架构:
 分词器和one-hot
 分词器在一维，one-hot在多维。各有优劣。
 
+![](Pasted%20image%2020250721101417.png)
+

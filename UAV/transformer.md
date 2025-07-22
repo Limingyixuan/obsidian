@@ -187,7 +187,7 @@ class ScaledDotProductAttention(nn.Module):
     def forward(self, q, k, v, mask=None):  
 		# q，k进行矩阵相乘
 		#在这里写的是temperature是以参数的形式传输进来，一般在transformer中设置成根号下dk
-		#即键的维度。在多头注意力机制的参数传进来时可以看到
+		#即键的维度。在下边多头注意力机制的参数传进来时可以看到，传输进来的就是temperature=d_k ** 0.5
         attn = torch.matmul(q / self.temperature, k.transpose(2, 3))  
 		# 判断是否需要加掩码机制，加了掩码的地方，将对应的注意力的值设置为极小值
         if mask is not None:  
@@ -216,7 +216,7 @@ class MultiHeadAttention(nn.Module):
         self.n_head = n_head # 注意力头的数量  
         self.d_k = d_k  #每个注意力的键数目  
         self.d_v = d_v # 每个注意力的值数目  
-  
+		  
         self.w_qs = nn.Linear(d_model, n_head * d_k, bias=False)  
         self.w_ks = nn.Linear(d_model, n_head * d_k, bias=False)  
         self.w_vs = nn.Linear(d_model, n_head * d_v, bias=False)  

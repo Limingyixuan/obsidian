@@ -217,7 +217,7 @@ class MultiHeadAttention(nn.Module):
         self.d_k = d_k  #每个注意力的键数目  
         self.d_v = d_v # 每个注意力的值数目  
 		  
-		#将输入的qkv矩阵转换成
+
         self.w_qs = nn.Linear(d_model, n_head * d_k, bias=False)  
         self.w_ks = nn.Linear(d_model, n_head * d_k, bias=False)  
         self.w_vs = nn.Linear(d_model, n_head * d_v, bias=False)  
@@ -240,7 +240,10 @@ class MultiHeadAttention(nn.Module):
         residual = q  
   
         # Pass through the pre-attention projection: b x lq x (n*dv)  
-        # Separate different heads: b x lq x n x dv        q = self.w_qs(q).view(sz_b, len_q, n_head, d_k)  
+        # Separate different heads: b x lq x n x dv       
+        #通过一个线性变换得到QKV三个矩阵 
+        # 将输入的qkv矩阵转换成
+        q = self.w_qs(q).view(sz_b, len_q, n_head, d_k)  
         k = self.w_ks(k).view(sz_b, len_k, n_head, d_k)  
         v = self.w_vs(v).view(sz_b, len_v, n_head, d_v)  
   

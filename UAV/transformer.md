@@ -246,7 +246,7 @@ class MultiHeadAttention(nn.Module):
         q = self.w_qs(q).view(sz_b, len_q, n_head, d_k)  
         k = self.w_ks(k).view(sz_b, len_k, n_head, d_k)  
         v = self.w_vs(v).view(sz_b, len_v, n_head, d_v)  
-  
+		#将q，k，v的一二维进行交换。
         # Transpose for attention dot product: b x n x lq x dv  
         q, k, v = q.transpose(1, 2), k.transpose(1, 2), v.transpose(1, 2)  
   
@@ -256,7 +256,8 @@ class MultiHeadAttention(nn.Module):
         q, attn = self.attention(q, k, v, mask=mask)  
   
         # Transpose to move the head dimension back: b x lq x n x dv  
-        # Combine the last two dimensions to concatenate all the heads together: b x lq x (n*dv)        q = q.transpose(1, 2).contiguous().view(sz_b, len_q, -1)  
+        # Combine the last two dimensions to concatenate all the heads together: b x lq x (n*dv)        
+        q = q.transpose(1, 2).contiguous().view(sz_b, len_q, -1)  
         q = self.dropout(self.fc(q))  
         q += residual  
   

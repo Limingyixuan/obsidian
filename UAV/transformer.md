@@ -164,6 +164,27 @@ class Transformer(nn.Module):
 ```
 
 
-
-
-![](Pasted%20image%2020250722102632.png)
+单个的自注意力
+```
+class ScaledDotProductAttention(nn.Module):  
+    ''' Scaled Dot-Product Attention '''  
+  
+    def __init__(self, temperature, attn_dropout=0.1):  
+        super().__init__()  
+        self.temperature = temperature  
+        self.dropout = nn.Dropout(attn_dropout)  
+  
+    def forward(self, q, k, v, mask=None):  
+		# q，k进行矩阵相乘
+        attn = torch.matmul(q / self.temperature, k.transpose(2, 3))  
+		# 判断是否需要加掩码机制，加了掩码的地方，将对应的注意力的值设置为极小值
+        if mask is not None:  
+            attn = attn.masked_fill(mask == 0, -1e9)  
+		#dropout
+        attn = self.dropout(F.softmax(attn, dim=-1))  
+        # 矩阵attn和v相乘，对v进行加权求和
+        # 加权求和的原理是，
+        output = torch.matmul(attn, v)  
+  
+        return output, attn
+```

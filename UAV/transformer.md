@@ -169,10 +169,10 @@ class Transformer(nn.Module):
 ```
 #decoder传进来的参数
 self.slf_attn = MultiHeadAttention(n_head, d_model, d_k, d_v, dropout=dropout)
-#从左到右依次是，头数，d_model:模型的维度，理解为特征维度，
-#d_k:键的维度，d_v:值的维度，一般情况下，d_k和d_v是相等的都是d_model/n_head
-#比如都是512/8 = 64，即模型512个特征维度且有8个头。这种情况下，输入的v数据维度就是
-#（batchsize，seq_len，）
+# 从左到右依次是，头数，d_model:模型的维度，理解为特征维度，
+# d_k:键的维度，d_v:值的维度，一般情况下，d_k和d_v是相等的都是d_model/n_head
+# 比如都是512/8 = 64，即模型512个特征维度且有8个头。这种情况下，输入的v数据维度就是
+#（batchsize，seq_len，d_model）在多头中会转变成（batchsize，n_head，seq_len，d_v）
 ```
 ```
 class ScaledDotProductAttention(nn.Module):  

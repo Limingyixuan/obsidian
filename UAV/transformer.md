@@ -170,7 +170,7 @@ class Transformer(nn.Module):
 #decoder传进来的参数
 self.slf_attn = MultiHeadAttention(n_head, d_model, d_k, d_v, dropout=dropout)
 #从左到右依次是，头数，d_model:模型的维度，理解为特征维度，
-#d_k:键的维度，d_v:
+#d_k:键的维度，d_v:值的维度
 ```
 ```
 class ScaledDotProductAttention(nn.Module):  

@@ -246,17 +246,22 @@ class MultiHeadAttention(nn.Module):
         q = self.w_qs(q).view(sz_b, len_q, n_head, d_k)  
         k = self.w_ks(k).view(sz_b, len_k, n_head, d_k)  
         v = self.w_vs(v).view(sz_b, len_v, n_head, d_v)  
+		
 		#将q，k，v的一二维进行交换。
         # Transpose for attention dot product: b x n x lq x dv  
         q, k, v = q.transpose(1, 2), k.transpose(1, 2), v.transpose(1, 2)  
-  
+
+		# 判断是否需要掩码
         if mask is not None:  
             mask = mask.unsqueeze(1)   # For head axis broadcasting.  
-  
+
+		#计算注意力
         q, attn = self.attention(q, k, v, mask=mask)  
-  
+	  
         # Transpose to move the head dimension back: b x lq x n x dv  
         # Combine the last two dimensions to concatenate all the heads together: b x lq x (n*dv)        
+      
+		#将q进行转置操作， .contiguous()确保张量在内存中是连续的
         q = q.transpose(1, 2).contiguous().view(sz_b, len_q, -1)  
         q = self.dropout(self.fc(q))  
         q += residual  

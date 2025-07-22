@@ -162,3 +162,8 @@ class Transformer(nn.Module):
   
         return seq_logit.view(-1, seq_logit.size(2))
 ```
+
+
+
+
+![](Pasted%20image%2020250722102632.png)

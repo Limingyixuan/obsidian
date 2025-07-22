@@ -217,6 +217,7 @@ class MultiHeadAttention(nn.Module):
         self.d_k = d_k  #每个注意力的键数目  
         self.d_v = d_v # 每个注意力的值数目  
 		  
+		#将输入的qkv矩阵转换成
         self.w_qs = nn.Linear(d_model, n_head * d_k, bias=False)  
         self.w_ks = nn.Linear(d_model, n_head * d_k, bias=False)  
         self.w_vs = nn.Linear(d_model, n_head * d_v, bias=False)  

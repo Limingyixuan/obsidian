@@ -190,6 +190,9 @@ class ScaledDotProductAttention(nn.Module):
 		# 判断是否需要加掩码机制，加了掩码的地方，将对应的注意力的值设置为极小值
         if mask is not None:  
             attn = attn.masked_fill(mask == 0, -1e9)  
+	    # 掩码，根据mask的值进行判断，如果值是1则就将对应位置上的值替换成value（后边的参数。）
+	    
+	    
 		#dropout，并且经过softmax层，得到一个概率分布。
         attn = self.dropout(F.softmax(attn, dim=-1))  
         # 矩阵attn和v相乘，对v进行加权求和

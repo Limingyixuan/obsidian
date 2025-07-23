@@ -262,6 +262,8 @@ class MultiHeadAttention(nn.Module):
         # Combine the last two dimensions to concatenate all the heads together: b x lq x (n*dv)        
       
 		#将q进行转置操作， .contiguous()确保张量在内存中是连续的
+		#1 transpose、permute等维度变换操作后，tensor在内存中不再是连续存储的，而view操作
+		#要求tensor的内存连续存储，所以需要contiguous来返回一个contiguous copy；
         q = q.transpose(1, 2).contiguous().view(sz_b, len_q, -1)  
         q = self.dropout(self.fc(q))  
         q += residual  

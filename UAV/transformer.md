@@ -266,6 +266,7 @@ class MultiHeadAttention(nn.Module):
 		#要求tensor的内存连续存储，所以需要contiguous来返回一个contiguous copy；
         q = q.transpose(1, 2).contiguous().view(sz_b, len_q, -1)  
         q = self.dropout(self.fc(q))  
+        #残差连接
         q += residual  
   
         q = self.layer_norm(q)  

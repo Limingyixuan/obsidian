@@ -268,8 +268,54 @@ class MultiHeadAttention(nn.Module):
         q = self.dropout(self.fc(q))  
         #残差连接
         q += residual  
-  
+		#归一化
         q = self.layer_norm(q)  
   
         return q, attn
+```
+
+前馈神经网络：
+用于引入非线性变化
+```
+class PositionwiseFeedForward(nn.Module):  
+    ''' A two-feed-forward-layer module '''  
+  
+    def __init__(self, d_in, d_hid, dropout=0.1):  
+        super().__init__()  
+        self.w_1 = nn.Linear(d_in, d_hid) # position-wise  
+        self.w_2 = nn.Linear(d_hid, d_in) # position-wise  
+        self.layer_norm = nn.LayerNorm(d_in, eps=1e-6)  
+        self.dropout = nn.Dropout(dropout)  
+  
+    def forward(self, x):  
+  
+        residual = x  
+	    #通过一个线性层，relu激活后再通过一个线性层
+        x = self.w_2(F.relu(self.w_1(x)))  
+        x = self.dropout(x)  
+        #残差连接
+        x += residual  
+	    #归一化
+        x = self.layer_norm(x)  
+  
+        return x
+```
+
+
+编码器：
+```
+class EncoderLayer(nn.Module):  
+    ''' Compose with two layers '''  
+  
+    def __init__(self, d_model, d_inner, n_head, d_k, d_v, dropout=0.1):  
+        super(EncoderLayer, self).__init__()  
+        self.slf_attn = MultiHeadAttention(n_head, d_model, d_k, d_v, dropout=dropout)  
+        self.pos_ffn = PositionwiseFeedForward(d_model, d_inner, dropout=dropout)  
+  
+    def forward(self, enc_input, slf_attn_mask=None):  
+	    #非常之简单，一个编码器就是，通过一个多头注意力层和一个前馈神经网络层
+        enc_output, enc_slf_attn = self.slf_attn(  
+            enc_input, enc_input, enc_input, mask=slf_attn_mask)  
+        enc_output = self.pos_ffn(enc_output)  
+        return enc_output, enc_slf_attn
 ```

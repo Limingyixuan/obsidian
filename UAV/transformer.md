@@ -356,6 +356,7 @@ class Encoder(nn.Module):
         enc_output = self.src_word_emb(src_seq)  
         if self.scale_emb:  #判断是否对词嵌入层进行缩放
             enc_output *= self.d_model ** 0.5  
+        #对词向量进行位置编码。
         enc_output = self.dropout(self.position_enc(enc_output))  
         enc_output = self.layer_norm(enc_output)  
   

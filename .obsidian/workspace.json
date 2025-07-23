@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "UAV/transformer.md",
+                "file": "通用/大模型.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "transformer"
+              "title": "大模型"
             }
           }
         ]
@@ -222,9 +222,10 @@
   },
   "active": "53c9908d31bf63fe",
   "lastOpenFiles": [
+    "UAV/transformer.md",
+    "通用/大模型.md",
     "english/word.md",
     "多头注意力机制.md",
-    "UAV/transformer.md",
     "通用/pytorch and python.md",
     "UAV/image/Pasted image 20250722102632.png",
     "通用/线代.md",

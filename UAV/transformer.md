@@ -303,6 +303,10 @@ class PositionwiseFeedForward(nn.Module):
 
 
 编码器：
+- **`enc_input`** (Tensor):  
+    编码器层的输入，形状为 `(batch_size, seq_len, d_model)`。
+- **`slf_attn_mask`** (Tensor, optional):  
+    自注意力机制的掩码，形状为 `(batch_size, seq_len, seq_len)`。用于屏蔽填充部分或未来信息（在解码器中）。
 ```
 class EncoderLayer(nn.Module):  
     ''' Compose with two layers '''  

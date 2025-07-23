@@ -319,3 +319,5 @@ class EncoderLayer(nn.Module):
         enc_output = self.pos_ffn(enc_output)  
         return enc_output, enc_slf_attn
 ```
+
+解码器：

@@ -354,7 +354,7 @@ class Encoder(nn.Module):
         # -- Forward  
         #上下参数不一样，是因为上边是在进行定义，而这里是在使用这一层，将sec_seq的词索引转变成词向量
         enc_output = self.src_word_emb(src_seq)  
-        if self.scale_emb:  
+        if self.scale_emb:  #判断是否对词嵌入层进行缩放
             enc_output *= self.d_model ** 0.5  
         enc_output = self.dropout(self.position_enc(enc_output))  
         enc_output = self.layer_norm(enc_output)  
@@ -367,3 +367,8 @@ class Encoder(nn.Module):
             return enc_output, enc_slf_attn_list  
         return enc_output,
 ```
+
+为什么要进行缩放：
+- 在 Transformer 模型中，词嵌入层的输出会直接输入到多头注意力机制中。
+- 如果词向量的维度 `d_model` 较大，词嵌入层的输出值可能会变得很大，导致注意力分数的计算不稳定。
+- 通过将词嵌入层的输出缩放为 `d_model ** 0.5`，可以使得注意力分数的计算更加稳定。

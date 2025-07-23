@@ -335,7 +335,7 @@ class Encoder(nn.Module):
   
         super().__init__()  
 		
-		#对
+		#将词索引转换成词向量
         self.src_word_emb = nn.Embedding(n_src_vocab, d_word_vec, padding_idx=pad_idx)  
         self.position_enc = PositionalEncoding(d_word_vec, n_position=n_position)  
         self.dropout = nn.Dropout(p=dropout)  
@@ -352,6 +352,7 @@ class Encoder(nn.Module):
         enc_slf_attn_list = []  
   
         # -- Forward  
+        #上下参数不一样，是因为上边是在进行定义，而这里是在使用这一层，将sec_seq的词索引转变成词向量
         enc_output = self.src_word_emb(src_seq)  
         if self.scale_emb:  
             enc_output *= self.d_model ** 0.5  

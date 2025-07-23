@@ -341,6 +341,7 @@ class Encoder(nn.Module):
         self.layer_stack = nn.ModuleList([  
             EncoderLayer(d_model, d_inner, n_head, d_k, d_v, dropout=dropout)  
             for _ in range(n_layers)])  
+            #n_layers是堆叠的层数，即编码器的层数
         self.layer_norm = nn.LayerNorm(d_model, eps=1e-6)  
         self.scale_emb = scale_emb  
         self.d_model = d_model  

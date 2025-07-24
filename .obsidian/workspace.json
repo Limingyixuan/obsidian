@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "UAV/论文.md",
+                "file": "UAV/UAV-DETR.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "论文"
+              "title": "UAV-DETR"
             }
           }
         ]
@@ -222,11 +222,11 @@
   },
   "active": "3821bc44a6be895d",
   "lastOpenFiles": [
-    "UAV/概述.md",
     "UAV/transformer.md",
+    "UAV/论文.md",
+    "UAV/概述.md",
     "UAV/SPAR.md",
     "UAV/UAV-DETR.md",
-    "UAV/论文.md",
     "通用/大模型.md",
     "通用/image/Pasted image 20250723214024.png",
     "通用/image/Pasted image 20250723213656.png",

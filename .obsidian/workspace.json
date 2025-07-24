@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "a9b4a69a501f6ea3",
+        "id": "0ff706f3fc83b8f1",
         "type": "tabs",
         "children": [
           {
-            "id": "53c9908d31bf63fe",
+            "id": "3821bc44a6be895d",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -220,14 +220,14 @@
       "obsidian-regex-pipeline:Regex Rulesets": false
     }
   },
-  "active": "53c9908d31bf63fe",
+  "active": "3821bc44a6be895d",
   "lastOpenFiles": [
+    "通用/大模型.md",
     "通用/image/Pasted image 20250723214024.png",
     "通用/image/Pasted image 20250723213656.png",
     "通用/image/Pasted image 20250723153804.png",
     "通用/image",
     "UAV/transformer.md",
-    "通用/大模型.md",
     "english/word.md",
     "多头注意力机制.md",
     "通用/pytorch and python.md",
@@ -240,7 +240,6 @@
     "UAV/image/Pasted image 20250721151635.png",
     "UAV/image/Pasted image 20250721105758.png",
     "UAV/image/Pasted image 20250721104414.png",
-    "UAV/image/Pasted image 20250721104201.png",
     "UAV/image",
     "UAV/NMS.md",
     "UAV/SPAR.md",

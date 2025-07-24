@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "通用/大模型.md",
+                "file": "UAV/transformer.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "大模型"
+              "title": "transformer"
             }
           }
         ]
@@ -222,12 +222,13 @@
   },
   "active": "3821bc44a6be895d",
   "lastOpenFiles": [
+    "UAV/UAV-DETR.md",
+    "UAV/transformer.md",
     "通用/大模型.md",
     "通用/image/Pasted image 20250723214024.png",
     "通用/image/Pasted image 20250723213656.png",
     "通用/image/Pasted image 20250723153804.png",
     "通用/image",
-    "UAV/transformer.md",
     "english/word.md",
     "多头注意力机制.md",
     "通用/pytorch and python.md",
@@ -243,7 +244,6 @@
     "UAV/image",
     "UAV/NMS.md",
     "UAV/SPAR.md",
-    "UAV/UAV-DETR.md",
     "UAV/DETR.md",
     "drone_cv/readme.md",
     "通用",

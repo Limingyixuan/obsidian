@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "0ff706f3fc83b8f1",
+        "id": "6d92ea5b4c69aae2",
         "type": "tabs",
         "children": [
           {
-            "id": "3821bc44a6be895d",
+            "id": "428c3bc007a47d1d",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -220,12 +220,12 @@
       "obsidian-regex-pipeline:Regex Rulesets": false
     }
   },
-  "active": "3821bc44a6be895d",
+  "active": "428c3bc007a47d1d",
   "lastOpenFiles": [
+    "UAV/perception/Dynamic Texts From UAV Perspective Natural Images.md",
     "UAV/perception/image/Pasted image 20250725104134.png",
     "UAV/perception/image",
     "UAV/概述.md",
-    "UAV/perception/Dynamic Texts From UAV Perspective Natural Images.md",
     "UAV/perception",
     "UAV/image/Pasted image 20250724212816.png",
     "UAV/image/Pasted image 20250724212644.png",
@@ -247,7 +247,6 @@
     "通用/评价标准.md",
     "UAV/image/Pasted image 20250721154831.png",
     "UAV/image/Pasted image 20250721151942.png",
-    "UAV/image/Pasted image 20250721151739.png",
     "UAV/image",
     "UAV/NMS.md",
     "UAV/DETR.md",

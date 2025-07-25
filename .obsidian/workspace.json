@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "UAV/概述.md",
+                "file": "UAV/perception/Dynamic Texts From UAV Perspective Natural Images.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "概述"
+              "title": "Dynamic Texts From UAV Perspective Natural Images"
             }
           }
         ]
@@ -220,14 +220,15 @@
       "obsidian-regex-pipeline:Regex Rulesets": false
     }
   },
-  "active": "476418ce8e538699",
+  "active": "3821bc44a6be895d",
   "lastOpenFiles": [
+    "UAV/概述.md",
+    "UAV/perception/Dynamic Texts From UAV Perspective Natural Images.md",
     "UAV/perception",
     "UAV/image/Pasted image 20250724212816.png",
     "UAV/image/Pasted image 20250724212644.png",
     "UAV/image/Pasted image 20250724212427.png",
     "UAV/论文.md",
-    "UAV/概述.md",
     "UAV/UAV-DETR.md",
     "UAV/transformer.md",
     "UAV/SPAR.md",

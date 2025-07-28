@@ -222,6 +222,11 @@
   },
   "active": "428c3bc007a47d1d",
   "lastOpenFiles": [
+    "UAV/perception/RS-LLM/RS-LLaVA.pdf",
+    "UAV/perception/RS-LLM/remotesensing-16-01477.pdf",
+    "UAV/perception/RS-LLM",
+    "UAV/perception/新建文件夹",
+    "UAV/perception/remotesensing-16-01477.pdf",
     "UAV/image/Pasted image 20250718163933.png",
     "UAV/perception/vision-caption/RS5M and GeoRSCLIP：遥感图片.md",
     "UAV/perception/基于环境上下文理解的天气感知无人机视角目标检测.md",
@@ -245,7 +250,6 @@
     "通用/大模型.md",
     "通用/image/Pasted image 20250723214024.png",
     "通用/image/Pasted image 20250723213656.png",
-    "通用/image/Pasted image 20250723153804.png",
     "通用/image",
     "english/word.md",
     "多头注意力机制.md",
@@ -259,9 +263,6 @@
     "通用",
     "v.md",
     "english/未命名.canvas",
-    "english/english",
-    "english/未命名看板.md",
-    "english",
-    "UAV"
+    "english/未命名看板.md"
   ]
 }

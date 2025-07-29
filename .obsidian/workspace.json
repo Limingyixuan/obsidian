@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "UAV/小目标检测.md",
+                "file": "UAV/多模态：.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "小目标检测"
+              "title": "多模态："
             }
           }
         ]
@@ -222,8 +222,9 @@
   },
   "active": "428c3bc007a47d1d",
   "lastOpenFiles": [
-    "UAV/论文.md",
     "UAV/小目标检测.md",
+    "UAV/多模态：.md",
+    "UAV/论文.md",
     "UAV/概述.md",
     "UAV/perception/RS-LLM/RS-LLaVA.pdf",
     "UAV/perception/RS-LLM/remotesensing-16-01477.pdf",

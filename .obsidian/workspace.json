@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "UAV/概述.md",
+                "file": "UAV/小目标检测.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "概述"
+              "title": "小目标检测"
             }
           }
         ]
@@ -222,6 +222,8 @@
   },
   "active": "428c3bc007a47d1d",
   "lastOpenFiles": [
+    "UAV/概述.md",
+    "UAV/小目标检测.md",
     "UAV/perception/RS-LLM/RS-LLaVA.pdf",
     "UAV/perception/RS-LLM/remotesensing-16-01477.pdf",
     "UAV/perception/RS-LLM",
@@ -234,7 +236,6 @@
     "UAV/perception/image/Pasted image 20250728101859.png",
     "UAV/perception/image/Pasted image 20250728101823.png",
     "UAV/transformer.md",
-    "UAV/概述.md",
     "UAV/perception/Dynamic Texts From UAV Perspective Natural Images.md",
     "UAV/perception/YOLO-WORLD + GPT4V.md",
     "UAV/perception/image/Pasted image 20250725182646.png",
@@ -260,7 +261,6 @@
     "UAV/NMS.md",
     "UAV/DETR.md",
     "drone_cv/readme.md",
-    "通用",
     "v.md",
     "english/未命名.canvas",
     "english/未命名看板.md"

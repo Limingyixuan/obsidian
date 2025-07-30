@@ -11,14 +11,17 @@
             "id": "428c3bc007a47d1d",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "canvas",
               "state": {
-                "file": "通用/大模型.md",
-                "mode": "source",
-                "source": false
+                "file": "未命名.canvas",
+                "viewState": {
+                  "x": 0,
+                  "y": 0,
+                  "zoom": 0
+                }
               },
-              "icon": "lucide-file",
-              "title": "大模型"
+              "icon": "lucide-layout-dashboard",
+              "title": "未命名"
             }
           }
         ]
@@ -221,8 +224,10 @@
   },
   "active": "428c3bc007a47d1d",
   "lastOpenFiles": [
-    "通用/评价标准.md",
     "通用/大模型.md",
+    "未命名.canvas",
+    "未命名看板.md",
+    "通用/评价标准.md",
     "UAV/transformer.md",
     "UAV/目标检测大模型/DINO.md",
     "UAV/多模态/红外与可见光图像多尺度 Transformer 融合方法.md",
@@ -265,7 +270,6 @@
     "UAV/DETR.md",
     "drone_cv/readme.md",
     "v.md",
-    "english/未命名.canvas",
-    "english/未命名看板.md"
+    "english/未命名.canvas"
   ]
 }

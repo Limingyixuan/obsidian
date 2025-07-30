@@ -1,8 +1,8 @@
 {
 	"nodes":[
-		{"id":"593a91c9d4f4595f","x":-360,"y":-3,"width":138,"height":50,"type":"text","text":"第一个端到端目标检测算法"},
-		{"id":"80ab6ccc6dd67d06","x":-138,"y":68,"width":138,"height":50,"type":"text","text":"去除了非极大值抑制"},
-		{"id":"ec9d5ab3c8a41e1d","x":-138,"y":-120,"width":138,"height":50,"type":"text","text":"不需要anchor作为先验知识"}
+		{"id":"593a91c9d4f4595f","x":-220,"y":-63,"width":138,"height":50,"type":"text","text":"第一个端到端目标检测算法"},
+		{"id":"80ab6ccc6dd67d06","x":2,"y":8,"width":138,"height":50,"type":"text","text":"去除了非极大值抑制"},
+		{"id":"ec9d5ab3c8a41e1d","x":2,"y":-180,"width":138,"height":50,"type":"text","text":"不需要anchor作为先验知识"}
 	],
 	"edges":[
 		{"id":"6326f3086ebc3dda","fromNode":"593a91c9d4f4595f","fromSide":"right","toNode":"80ab6ccc6dd67d06","toSide":"left"},

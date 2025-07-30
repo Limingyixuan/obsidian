@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "UAV/多模态/OCCO.md",
+                "file": "UAV/概述.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "OCCO"
+              "title": "概述"
             }
           }
         ]
@@ -222,10 +222,10 @@
   },
   "active": "428c3bc007a47d1d",
   "lastOpenFiles": [
+    "UAV/论文.md",
     "UAV/多模态/多模态：.md",
     "UAV/多模态/OCCO.md",
     "UAV/小目标检测.md",
-    "UAV/论文.md",
     "UAV/perception/vision-caption/RS5M and GeoRSCLIP：遥感图片.md",
     "UAV/概述.md",
     "UAV/多模态",

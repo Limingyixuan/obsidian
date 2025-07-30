@@ -1,11 +1,12 @@
 {
 	"nodes":[
-		{"id":"593a91c9d4f4595f","x":-220,"y":-63,"width":138,"height":50,"type":"text","text":"第一个端到端目标检测算法"},
-		{"id":"80ab6ccc6dd67d06","x":2,"y":8,"width":138,"height":50,"type":"text","text":"去除了非极大值抑制"},
-		{"id":"ec9d5ab3c8a41e1d","x":2,"y":-180,"width":138,"height":50,"type":"text","text":"不需要anchor作为先验知识"}
+		{"id":"593a91c9d4f4595f","x":100,"y":-240,"width":158,"height":90,"type":"text","text":"第一个端到端目标检测算法"},
+		{"id":"ffa5d92b7dc7b3f3","type":"text","text":"第一个引入Transformer的目标检测算法","x":-146,"y":-240,"width":175,"height":90},
+		{"id":"80ab6ccc6dd67d06","x":-40,"y":-46,"width":138,"height":50,"type":"text","text":"去除了非极大值抑制"},
+		{"id":"ec9d5ab3c8a41e1d","x":258,"y":-46,"width":138,"height":50,"type":"text","text":"不需要anchor作为先验知识"}
 	],
 	"edges":[
-		{"id":"6326f3086ebc3dda","fromNode":"593a91c9d4f4595f","fromSide":"right","toNode":"80ab6ccc6dd67d06","toSide":"left"},
-		{"id":"f3f8ed846a511991","fromNode":"593a91c9d4f4595f","fromSide":"right","toNode":"ec9d5ab3c8a41e1d","toSide":"left"}
+		{"id":"724b7c77261cee3a","fromNode":"593a91c9d4f4595f","fromSide":"bottom","toNode":"80ab6ccc6dd67d06","toSide":"top"},
+		{"id":"6bab1e437afd6501","fromNode":"593a91c9d4f4595f","fromSide":"bottom","toNode":"ec9d5ab3c8a41e1d","toSide":"top"}
 	]
 }

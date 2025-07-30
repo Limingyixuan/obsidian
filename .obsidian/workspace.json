@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "UAV/多模态/多模态：.md",
+                "file": "UAV/多模态/红外与可见光图像多尺度 Transformer 融合方法.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "多模态："
+              "title": "红外与可见光图像多尺度 Transformer 融合方法"
             }
           }
         ]
@@ -222,15 +222,15 @@
   },
   "active": "428c3bc007a47d1d",
   "lastOpenFiles": [
-    "UAV/多模态/红外与可见光图像多尺度 Transformer 融合方法.md",
     "UAV/多模态/OCCO.md",
+    "UAV/多模态/红外与可见光图像多尺度 Transformer 融合方法.md",
+    "UAV/多模态/多模态：.md",
     "UAV/多模态/image/Pasted image 20250730150945.png",
     "UAV/多模态/image/Pasted image 20250730112814.png",
     "UAV/多模态/image/Pasted image 20250730112756.png",
     "UAV/多模态/image",
     "UAV/概述.md",
     "UAV/论文.md",
-    "UAV/多模态/多模态：.md",
     "UAV/小目标检测.md",
     "UAV/perception/vision-caption/RS5M and GeoRSCLIP：遥感图片.md",
     "UAV/多模态",

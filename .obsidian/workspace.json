@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "UAV/多模态：.md",
+                "file": "UAV/多模态/OCCO.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "多模态："
+              "title": "OCCO"
             }
           }
         ]
@@ -222,8 +222,10 @@
   },
   "active": "428c3bc007a47d1d",
   "lastOpenFiles": [
+    "UAV/多模态/多模态：.md",
+    "UAV/多模态/OCCO.md",
+    "UAV/多模态",
     "UAV/小目标检测.md",
-    "UAV/多模态：.md",
     "UAV/论文.md",
     "UAV/概述.md",
     "UAV/perception/RS-LLM/RS-LLaVA.pdf",
@@ -238,7 +240,7 @@
     "UAV/perception/image/Pasted image 20250728101859.png",
     "UAV/perception/image/Pasted image 20250728101823.png",
     "UAV/transformer.md",
-    "UAV/perception/Dynamic Texts From UAV Perspective Natural Images.md",
+    "UAV/Dynamic Texts From UAV Perspective Natural Images.md",
     "UAV/perception/YOLO-WORLD + GPT4V.md",
     "UAV/perception/image/Pasted image 20250725182646.png",
     "UAV/UAV-DETR.md",
@@ -258,7 +260,6 @@
     "通用/pytorch and python.md",
     "通用/线代.md",
     "通用/评价标准.md",
-    "UAV/image",
     "UAV/NMS.md",
     "UAV/DETR.md",
     "drone_cv/readme.md",

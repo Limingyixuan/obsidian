@@ -1,0 +1,1 @@
+以 Swin Transformer 为组件,架构了 Conv Swin Transformer Block 模块,利用卷积层增强图 像全局特征的表征能力。

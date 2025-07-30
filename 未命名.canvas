@@ -1,12 +1,17 @@
 {
 	"nodes":[
-		{"id":"593a91c9d4f4595f","x":100,"y":-240,"width":158,"height":90,"type":"text","text":"第一个端到端目标检测算法"},
-		{"id":"ffa5d92b7dc7b3f3","type":"text","text":"第一个引入Transformer的目标检测算法","x":-146,"y":-240,"width":175,"height":90},
-		{"id":"80ab6ccc6dd67d06","x":-40,"y":-46,"width":138,"height":50,"type":"text","text":"去除了非极大值抑制"},
-		{"id":"ec9d5ab3c8a41e1d","x":258,"y":-46,"width":138,"height":50,"type":"text","text":"不需要anchor作为先验知识"}
+		{"id":"d7a9b3272731415d","x":115,"y":-620,"width":100,"height":60,"type":"text","text":"**DETR**"},
+		{"id":"ffa5d92b7dc7b3f3","type":"text","text":"第一个引入Transformer的目标检测算法","x":-100,"y":-460,"width":175,"height":90},
+		{"id":"593a91c9d4f4595f","x":207,"y":-460,"width":158,"height":90,"type":"text","text":"第一个端到端目标检测算法"},
+		{"id":"80ab6ccc6dd67d06","x":77,"y":-291,"width":138,"height":50,"type":"text","text":"去除了非极大值抑制"},
+		{"id":"ec9d5ab3c8a41e1d","x":340,"y":-291,"width":138,"height":50,"type":"text","text":"不需要anchor作为先验知识"},
+		{"id":"ff67b97b1c5f8435","type":"text","text":"Faster R-CNN\n（2015）","x":365,"y":-620,"width":155,"height":60}
 	],
 	"edges":[
 		{"id":"724b7c77261cee3a","fromNode":"593a91c9d4f4595f","fromSide":"bottom","toNode":"80ab6ccc6dd67d06","toSide":"top"},
-		{"id":"6bab1e437afd6501","fromNode":"593a91c9d4f4595f","fromSide":"bottom","toNode":"ec9d5ab3c8a41e1d","toSide":"top"}
+		{"id":"6bab1e437afd6501","fromNode":"593a91c9d4f4595f","fromSide":"bottom","toNode":"ec9d5ab3c8a41e1d","toSide":"top"},
+		{"id":"857caf74ceb735c7","fromNode":"d7a9b3272731415d","fromSide":"bottom","toNode":"ffa5d92b7dc7b3f3","toSide":"top"},
+		{"id":"6b492df08b7b43b5","fromNode":"d7a9b3272731415d","fromSide":"right","toNode":"ff67b97b1c5f8435","toSide":"left","label":"算法性能"},
+		{"id":"ca324d51ad70ab95","fromNode":"d7a9b3272731415d","fromSide":"bottom","toNode":"593a91c9d4f4595f","toSide":"top"}
 	]
 }

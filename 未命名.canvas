@@ -9,7 +9,8 @@
 		{"id":"f26ad3ab9f8b2e74","type":"text","text":"  \n(3,H,W)","x":-152,"y":-20,"width":92,"height":60},
 		{"id":"88c5a6fa5963a46d","type":"text","text":"\n(C,H/32,W/32)","x":44,"y":-20,"width":163,"height":60},
 		{"id":"bd525dc9d0b39cad","x":340,"y":-20,"width":250,"height":60,"type":"text","text":"  \n(embed_dim,H/32,W/32)"},
-		{"id":"56e1f271a4b66641","x":340,"y":120,"width":260,"height":60,"type":"text","text":"（embed_dim,H/32 * W/32）"}
+		{"id":"8f4702f057ddb9e4","x":-60,"y":100,"width":275,"height":60,"type":"text","text":"（embed_dim,H/32 * W/32）"},
+		{"id":"56e1f271a4b66641","x":335,"y":100,"width":260,"height":60,"type":"text","text":"（embed_dim,H/32 * W/32）"}
 	],
 	"edges":[
 		{"id":"724b7c77261cee3a","fromNode":"593a91c9d4f4595f","fromSide":"bottom","toNode":"80ab6ccc6dd67d06","toSide":"top"},
@@ -19,6 +20,7 @@
 		{"id":"ca324d51ad70ab95","fromNode":"d7a9b3272731415d","fromSide":"bottom","toNode":"593a91c9d4f4595f","toSide":"top"},
 		{"id":"0b2e203f5522e540","fromNode":"f26ad3ab9f8b2e74","fromSide":"right","toNode":"88c5a6fa5963a46d","toSide":"left","label":"CNN\n\n"},
 		{"id":"e240b982dc118ed6","fromNode":"88c5a6fa5963a46d","fromSide":"right","toNode":"bd525dc9d0b39cad","toSide":"left","label":"1*1卷积\n\n"},
-		{"id":"56ecdc16737eaa39","fromNode":"bd525dc9d0b39cad","fromSide":"bottom","toNode":"56e1f271a4b66641","toSide":"top","label":"Reshape"}
+		{"id":"56ecdc16737eaa39","fromNode":"bd525dc9d0b39cad","fromSide":"bottom","toNode":"56e1f271a4b66641","toSide":"top","label":"Reshape"},
+		{"id":"32902a819f9dc0ce","fromNode":"56e1f271a4b66641","fromSide":"left","toNode":"8f4702f057ddb9e4","toSide":"right","label":"位置编码\n\n"}
 	]
 }

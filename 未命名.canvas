@@ -12,11 +12,18 @@
 		{"id":"56e1f271a4b66641","type":"text","text":"（embed_dim,H/32 * W/32）","x":460,"y":100,"width":260,"height":60},
 		{"id":"8f4702f057ddb9e4","type":"text","text":"（embed_dim,H/32 * W/32）","x":44,"y":100,"width":275,"height":60},
 		{"id":"68879082593c06f5","type":"text","text":"encoder","x":-152,"y":100,"width":142,"height":60},
-		{"id":"11559f71916d245a","x":-206,"y":220,"width":250,"height":60,"type":"text","text":"DETR"},
 		{"id":"3e548ef8b4103535","x":-139,"y":340,"width":116,"height":60,"type":"text","text":"输入图像"},
 		{"id":"65173e204f5bc566","x":-139,"y":460,"width":116,"height":60,"type":"text","text":"特征提取"},
 		{"id":"e11e92b99605b264","x":-152,"y":581,"width":142,"height":60,"type":"text","text":"Transformer"},
-		{"id":"7beec00480d53395","x":-206,"y":708,"width":250,"height":60,"type":"text","text":"集合预测"}
+		{"id":"7beec00480d53395","x":-167,"y":708,"width":172,"height":60,"type":"text","text":"集合预测得到输出"},
+		{"id":"11559f71916d245a","x":-152,"y":220,"width":142,"height":60,"type":"text","text":"DETR"},
+		{"id":"c7db3140d82ee9f0","type":"text","text":"Farster","x":355,"y":208,"width":142,"height":60},
+		{"id":"7bf6a1334e4f0363","type":"text","text":"输入图像","x":368,"y":328,"width":116,"height":60},
+		{"id":"6f47ab235965292c","type":"text","text":"特征提取","x":368,"y":430,"width":116,"height":60},
+		{"id":"1d23269e7fb0e6b8","type":"text","text":"生成候选区域","x":355,"y":569,"width":142,"height":60},
+		{"id":"f93d5d0fd3722858","type":"text","text":"固定尺寸特征","x":340,"y":696,"width":172,"height":60},
+		{"id":"28053d3eaff4e92d","x":113,"y":696,"width":142,"height":60,"type":"text","text":"分类加回归"},
+		{"id":"fc6722ec8e577660","x":103,"y":551,"width":163,"height":60,"type":"text","text":"NMS后置处理"}
 	],
 	"edges":[
 		{"id":"724b7c77261cee3a","fromNode":"593a91c9d4f4595f","fromSide":"bottom","toNode":"80ab6ccc6dd67d06","toSide":"top"},
@@ -32,6 +39,12 @@
 		{"id":"e6534f3b04495b9f","fromNode":"11559f71916d245a","fromSide":"bottom","toNode":"3e548ef8b4103535","toSide":"top"},
 		{"id":"7cacb10b754e41dc","fromNode":"3e548ef8b4103535","fromSide":"bottom","toNode":"65173e204f5bc566","toSide":"top"},
 		{"id":"4e9afec2eb052fed","fromNode":"65173e204f5bc566","fromSide":"bottom","toNode":"e11e92b99605b264","toSide":"top"},
-		{"id":"ae96ab4af3e2f36f","fromNode":"e11e92b99605b264","fromSide":"bottom","toNode":"7beec00480d53395","toSide":"top"}
+		{"id":"ae96ab4af3e2f36f","fromNode":"e11e92b99605b264","fromSide":"bottom","toNode":"7beec00480d53395","toSide":"top"},
+		{"id":"737c7bccbaa56812","fromNode":"7bf6a1334e4f0363","fromSide":"bottom","toNode":"6f47ab235965292c","toSide":"top"},
+		{"id":"abe041cebe6bcd36","fromNode":"c7db3140d82ee9f0","fromSide":"bottom","toNode":"7bf6a1334e4f0363","toSide":"top"},
+		{"id":"7604fb4276ed5d12","fromNode":"6f47ab235965292c","fromSide":"bottom","toNode":"1d23269e7fb0e6b8","toSide":"top"},
+		{"id":"9f06828ee8090c46","fromNode":"1d23269e7fb0e6b8","fromSide":"bottom","toNode":"f93d5d0fd3722858","toSide":"top"},
+		{"id":"12fceffc0b93b743","fromNode":"f93d5d0fd3722858","fromSide":"left","toNode":"28053d3eaff4e92d","toSide":"right"},
+		{"id":"16bfd4e5f3729c9a","fromNode":"28053d3eaff4e92d","fromSide":"top","toNode":"fc6722ec8e577660","toSide":"bottom"}
 	]
 }

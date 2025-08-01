@@ -89,7 +89,8 @@
               "title": "File Tree"
             }
           }
-        ]
+        ],
+        "currentTab": 3
       },
       {
         "id": "26cff3d649175ac9",
@@ -109,8 +110,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "right": {
     "id": "18a9bd2e72a5bcaa",

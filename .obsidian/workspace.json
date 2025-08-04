@@ -169,13 +169,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "UAV/transformer.md",
+                "file": "空对地目标检测/航空目标检测综述.md",
                 "followCursor": true,
                 "showSearch": true,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "transformer 的大纲"
+              "title": "航空目标检测综述 的大纲"
             }
           },
           {
@@ -199,7 +199,7 @@
             }
           }
         ],
-        "currentTab": 5
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
@@ -220,7 +220,7 @@
       "obsidian-regex-pipeline:Regex Rulesets": false
     }
   },
-  "active": "428c3bc007a47d1d",
+  "active": "1c1682595e4378c6",
   "lastOpenFiles": [
     "空对地目标检测/image/Pasted image 20250804110326.png",
     "空对地目标检测/image",

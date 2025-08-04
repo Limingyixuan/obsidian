@@ -203,7 +203,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -220,7 +221,7 @@
       "obsidian-regex-pipeline:Regex Rulesets": false
     }
   },
-  "active": "1c1682595e4378c6",
+  "active": "428c3bc007a47d1d",
   "lastOpenFiles": [
     "空对地目标检测/image/Pasted image 20250804110326.png",
     "空对地目标检测/image",

@@ -2,7 +2,7 @@
   "blue-topaz-theme@@color-scheme-options": "color-scheme-options-chocolate-topaz",
   "Blue-Topaz-Codebox-Highlight@@code-theme-selection": "code-theme-material-palenight",
   "blue-topaz-theme@@text-indentation-two-em": true,
-  "blue-topaz-theme@@activeline-background@@light": "#016E85",
+  "blue-topaz-theme@@activeline-background@@light": "#ADB2FF",
   "blue-topaz-theme@@activeline-background@@dark": "#016E85",
   "blue-topaz-theme@@retain-header-color": false,
   "blue-topaz-theme@@tab-head-style": "transparent-tab-style",
@@ -24,5 +24,9 @@
   "blue-topaz-theme@@background-primary-alt-bg-4-bt@@light": "#DD0101",
   "blue-topaz-theme@@background-secondary-bg-4-bt@@light": "#FFFFFF",
   "blue-topaz-theme@@accent-strong@@light": "#561100",
-  "blue-topaz-theme@@accent-em@@light": "#000000"
+  "blue-topaz-theme@@accent-em@@light": "#000000",
+  "blue-topaz-theme@@status-bar-bg@@light": "#5CFFBB",
+  "blue-topaz-theme@@icon-color-focused@@light": "#F88E18",
+  "blue-topaz-theme@@divider-color@@light": "#1F19FF",
+  "blue-topaz-theme@@tab-outline-color@@light": "#ED00FF"
 }

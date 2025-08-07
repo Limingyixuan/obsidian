@@ -10,7 +10,19 @@
   "blue-topaz-theme@@bt-background-split-container@@light": "#FFFFFF",
   "blue-topaz-theme@@background-settings-workplace-theme-light": "background-settings-workplace-waves2-light",
   "blue-topaz-theme@@background-image-settings-switch": true,
-  "blue-topaz-theme@@background-image-settings-markdown-page-options": "background-image-settings-markdown-page-custom",
+  "blue-topaz-theme@@background-image-settings-markdown-page-options": "background-image-settings-markdown-page-transparent",
   "blue-topaz-theme@@bg-markdown-page-opacity-cp": 1,
-  "blue-topaz-theme@@custom-markdown-page-background-color@@light": "#FFFFFF"
+  "blue-topaz-theme@@custom-markdown-page-background-color@@light": "#FFFFFF",
+  "blue-topaz-theme@@text-selection@@light": "#D7F620",
+  "blue-topaz-theme@@background-primary-bg-4-bt@@light": "#FABF8F",
+  "blue-topaz-theme@@background-settings-workplace-theme-dark": "background-settings-workplace-waves2",
+  "blue-topaz-theme@@toggle-nonoverlapping-bg": false,
+  "blue-topaz-theme@@background-notebook-liked-switch": false,
+  "blue-topaz-theme@@background-image-settings-command-palette-switch": false,
+  "blue-topaz-theme@@text-normal@@light": "#381468",
+  "blue-topaz-theme@@text-normal@@dark": "#3B0707",
+  "blue-topaz-theme@@background-primary-alt-bg-4-bt@@light": "#DD0101",
+  "blue-topaz-theme@@background-secondary-bg-4-bt@@light": "#FFFFFF",
+  "blue-topaz-theme@@accent-strong@@light": "#561100",
+  "blue-topaz-theme@@accent-em@@light": "#000000"
 }

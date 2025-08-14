@@ -203,8 +203,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -223,6 +222,7 @@
   },
   "active": "2da68f12edf8f202",
   "lastOpenFiles": [
+    "空对地目标检测/image/Pasted image 20250814102541.png",
     "空对地目标检测/image/Pasted image 20250814095940.png",
     "空对地目标检测/image/Pasted image 20250811145639.png",
     "空对地目标检测/image/Pasted image 20250811105245.png",
@@ -233,7 +233,6 @@
     "空对地目标检测/image/Pasted image 20250808094051.png",
     "空对地目标检测/image/Pasted image 20250807203555.png",
     "空对地目标检测/image/Pasted image 20250807201223.png",
-    "空对地目标检测/image/Pasted image 20250807201020.png",
     "空对地目标检测/航空目标检测综述.md",
     "空对地目标检测/image",
     "未命名.canvas",

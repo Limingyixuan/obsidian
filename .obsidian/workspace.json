@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "空对地目标检测/航空目标检测综述.md",
+                "file": "UAV/llm.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "航空目标检测综述"
+              "title": "llm"
             }
           }
         ]
@@ -223,6 +223,8 @@
   },
   "active": "2da68f12edf8f202",
   "lastOpenFiles": [
+    "空对地目标检测/航空目标检测综述.md",
+    "UAV/llm.md",
     "空对地目标检测/image/Pasted image 20250814171300.png",
     "空对地目标检测/image/Pasted image 20250814171245.png",
     "空对地目标检测/image/Pasted image 20250814154638.png",
@@ -233,8 +235,6 @@
     "空对地目标检测/image/Pasted image 20250811105216.png",
     "空对地目标检测/image/Pasted image 20250811105204.png",
     "空对地目标检测/image/Pasted image 20250808202155.png",
-    "空对地目标检测/image/Pasted image 20250808170317.png",
-    "空对地目标检测/航空目标检测综述.md",
     "空对地目标检测/image",
     "未命名.canvas",
     "空对地目标检测",

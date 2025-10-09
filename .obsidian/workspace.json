@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "UAV/llm.md",
+                "file": "聚类算法/Image Clustering with External Guidance.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "llm"
+              "title": "Image Clustering with External Guidance"
             }
           }
         ]
@@ -73,42 +73,12 @@
               "icon": "lucide-bookmark",
               "title": "书签"
             }
-          },
-          {
-            "id": "abe67b48e69a6764",
-            "type": "leaf",
-            "pinned": true,
-            "state": {
-              "type": "file-tree-view",
-              "state": {},
-              "pinned": true,
-              "icon": "sheets-in-box",
-              "title": "File Tree"
-            }
-          }
-        ],
-        "currentTab": 3
-      },
-      {
-        "id": "26cff3d649175ac9",
-        "type": "tabs",
-        "children": [
-          {
-            "id": "c6adcf0bd0e38ce7",
-            "type": "leaf",
-            "state": {
-              "type": "file-tree-view",
-              "state": {},
-              "icon": "sheets-in-box",
-              "title": "File Tree"
-            }
           }
         ]
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "right": {
     "id": "18a9bd2e72a5bcaa",
@@ -185,8 +155,8 @@
             "state": {
               "type": "calendar",
               "state": {},
-              "icon": "calendar-with-checkmark",
-              "title": "Calendar"
+              "icon": "lucide-ghost",
+              "title": "calendar"
             }
           },
           {
@@ -195,8 +165,8 @@
             "state": {
               "type": "git-view",
               "state": {},
-              "icon": "git-pull-request",
-              "title": "Source Control"
+              "icon": "lucide-ghost",
+              "title": "git-view"
             }
           }
         ],
@@ -209,68 +179,64 @@
   },
   "left-ribbon": {
     "hiddenItems": {
+      "bases:创建新数据库": false,
       "switcher:打开快速切换": false,
       "graph:查看关系图谱": false,
       "canvas:新建白板": false,
       "daily-notes:打开/创建今天的日记": false,
       "templates:插入模板": false,
-      "command-palette:打开命令面板": false,
-      "templater-obsidian:Templater": false,
-      "obsidian-git:Open Git source control": false,
-      "obsidian-kanban:创建新看板": false,
-      "file-tree-alternative:File Tree Alternative Plugin": false,
-      "obsidian-regex-pipeline:Regex Rulesets": false
+      "command-palette:打开命令面板": false
     }
   },
-  "active": "2da68f12edf8f202",
+  "active": "476418ce8e538699",
   "lastOpenFiles": [
-    "UAV/image/Pasted image 20250821100058.png",
-    "空对地目标检测/航空目标检测综述.md",
-    "UAV/llm.md",
-    "空对地目标检测/image/Pasted image 20250814171300.png",
-    "空对地目标检测/image/Pasted image 20250814171245.png",
-    "空对地目标检测/image/Pasted image 20250814154638.png",
-    "空对地目标检测/image/Pasted image 20250814102541.png",
-    "空对地目标检测/image/Pasted image 20250814095940.png",
-    "空对地目标检测/image/Pasted image 20250811145639.png",
-    "空对地目标检测/image/Pasted image 20250811105245.png",
-    "空对地目标检测/image/Pasted image 20250811105216.png",
-    "空对地目标检测/image/Pasted image 20250811105204.png",
-    "空对地目标检测/image/Pasted image 20250808202155.png",
-    "空对地目标检测/image",
-    "未命名.canvas",
-    "空对地目标检测",
-    "通用/大模型.md",
-    "未命名看板.md",
-    "通用/评价标准.md",
-    "UAV/transformer.md",
-    "UAV/目标检测大模型/DINO.md",
-    "UAV/多模态/红外与可见光图像多尺度 Transformer 融合方法.md",
-    "UAV/目标检测大模型",
-    "UAV/多模态/OCCO.md",
-    "UAV/多模态/多模态：.md",
-    "UAV/多模态/image",
-    "UAV/概述.md",
-    "UAV/论文.md",
-    "UAV/小目标检测.md",
-    "UAV/perception/vision-caption/RS5M and GeoRSCLIP：遥感图片.md",
-    "UAV/多模态",
-    "UAV/perception/RS-LLM/RS-LLaVA.pdf",
-    "UAV/perception/RS-LLM/remotesensing-16-01477.pdf",
-    "UAV/perception/RS-LLM",
-    "UAV/perception/新建文件夹",
-    "UAV/perception/remotesensing-16-01477.pdf",
-    "UAV/perception/基于环境上下文理解的天气感知无人机视角目标检测.md",
+    "损失函数",
+    "聚类算法/image/Pasted image 20251009152918.png",
+    "聚类算法/image/Pasted image 20251009152909.png",
+    "聚类算法/image/Pasted image 20251009150900.png",
+    "聚类算法/image/Pasted image 20251009112006.png",
+    "聚类算法/聚类算法综述.md",
     "UAV/Dynamic Texts From UAV Perspective Natural Images.md",
-    "UAV/perception/YOLO-WORLD + GPT4V.md",
-    "UAV/UAV-DETR.md",
-    "UAV/SPAR.md",
-    "english/word.md",
-    "多头注意力机制.md",
-    "通用/pytorch and python.md",
-    "通用/线代.md",
-    "UAV/NMS.md",
+    "UAV/perception/基于环境上下文理解的天气感知无人机视角目标检测.md",
+    "drone_cv/readme.md",
+    "聚类算法/Image Clustering with External Guidance.md",
+    "聚类算法/image/Pasted image 20251009105125.png",
+    "空对地目标检测/目标追踪/Learning an Adaptive and View-Invariant Vision  Transformer for Real-Time UAV Tracking.md",
+    "空对地目标检测/目标追踪",
+    "空对地目标检测/未命名.md",
+    "聚类算法/image/Pasted image 20250930170404.png",
+    "聚类算法/image/Pasted image 20250930161217.png",
+    "聚类算法/image/Pasted image 20250930111247.png",
+    "聚类算法/image/Pasted image 20250930111108.png",
+    "聚类算法/image/Pasted image 20250930111010.png",
+    "聚类算法/image",
+    "聚类算法",
+    "空对地目标检测/IDEA/idea.md",
+    "UAV/小目标检测.md",
     "UAV/DETR.md",
+    "UAV/llm.md",
+    "UAV/NMS.md",
+    "UAV/SPAR.md",
+    "UAV/transformer.md",
+    "UAV/UAV-DETR.md",
+    "未命名.canvas",
+    "空对地目标检测/SPAR.md",
+    "空对地目标检测/大模型应用于UAV目标检测.md",
+    "空对地目标检测/航空目标检测综述.md",
+    "UAV/论文.md",
+    "UAV/概述.md",
+    "README.md",
+    "UAV/目标检测大模型/DINO.md",
+    "空对地目标检测/IDEA",
+    "空对地目标检测/Shooting condition（LGNet）/Text prompt embedding fine-tuning.md",
+    "空对地目标检测/Shooting condition（LGNet）/Shooting condition insensitive unmanned aerial vehicle object detection.md",
+    "通用/pyrtorch/hook钩子.md",
+    "通用/pyrtorch/image",
+    "通用/pyrtorch",
+    "空对地目标检测/Shooting condition（LGNet）",
+    "空对地目标检测/image",
+    "空对地目标检测",
+    "UAV/目标检测大模型",
     "english/未命名.canvas"
   ]
 }

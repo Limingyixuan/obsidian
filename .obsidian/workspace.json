@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "空对地目标检测/IDEA/idea.md",
+                "file": "聚类算法/当前思路：.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "idea"
+              "title": "当前思路："
             }
           }
         ]
@@ -190,6 +190,8 @@
   },
   "active": "2da68f12edf8f202",
   "lastOpenFiles": [
+    "空对地目标检测/IDEA/idea.md",
+    "聚类算法/当前思路：.md",
     "聚类算法/聚类算法综述.md",
     "损失函数/关于多模态的损失函数.md",
     "聚类算法/Image Clustering with External Guidance.md",
@@ -212,7 +214,6 @@
     "聚类算法/image/Pasted image 20250930111010.png",
     "聚类算法/image",
     "聚类算法",
-    "空对地目标检测/IDEA/idea.md",
     "UAV/小目标检测.md",
     "UAV/DETR.md",
     "UAV/llm.md",
@@ -231,7 +232,6 @@
     "空对地目标检测/IDEA",
     "空对地目标检测/Shooting condition（LGNet）/Text prompt embedding fine-tuning.md",
     "空对地目标检测/Shooting condition（LGNet）/Shooting condition insensitive unmanned aerial vehicle object detection.md",
-    "通用/pyrtorch/hook钩子.md",
     "通用/pyrtorch/image",
     "通用/pyrtorch",
     "空对地目标检测/Shooting condition（LGNet）",

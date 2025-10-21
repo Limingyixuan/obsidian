@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "MoE/DAMEX.md",
+                "file": "空对地目标检测/IDEA/idea.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "DAMEX"
+              "title": "idea"
             }
           }
         ]
@@ -190,8 +190,8 @@
   },
   "active": "2da68f12edf8f202",
   "lastOpenFiles": [
-    "聚类算法/当前思路：.md",
     "MoE/DAMEX.md",
+    "聚类算法/当前思路：.md",
     "MoE",
     "空对地目标检测/IDEA/idea.md",
     "聚类算法/聚类算法综述.md",

@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "空对地目标检测/Shooting condition（LGNet）/Shooting condition insensitive unmanned aerial vehicle object detection.md",
+                "file": "MoE/DAMEX.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Shooting condition insensitive unmanned aerial vehicle object detection"
+              "title": "DAMEX"
             }
           }
         ]
@@ -140,13 +140,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "空对地目标检测/航空目标检测综述.md",
+                "file": "MoE/DAMEX.md",
                 "followCursor": true,
                 "showSearch": true,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "航空目标检测综述 的大纲"
+              "title": "DAMEX 的大纲"
             }
           },
           {
@@ -170,7 +170,7 @@
             }
           }
         ],
-        "currentTab": 5
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
@@ -188,8 +188,9 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "068c421864dec402",
+  "active": "1c1682595e4378c6",
   "lastOpenFiles": [
+    "空对地目标检测/Shooting condition（LGNet）/Shooting condition insensitive unmanned aerial vehicle object detection.md",
     "MoE/DAMEX.md",
     "MoE/image/Pasted image 20251023112927.png",
     "MoE/image",

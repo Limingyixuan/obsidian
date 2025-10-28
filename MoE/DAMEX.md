@@ -24,3 +24,8 @@
 - 专家 1：处理「航拍大目标」（DOTA、FAIR1M）；
 - 专家 2：处理「低空小目标」（VisDrone、UAVDT）；
 - 专家 3：处理「夜间红外目标」（FLIR UAV、KAIST UAV）；
+
+第一次测试：
+数据集：
+1、coco：coco
+2、dota

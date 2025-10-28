@@ -27,5 +27,5 @@
 
 第一次测试：
 数据集：
-1、coco：coco
-2、dota
+1、coco：coco格式
+2、dota：修改为coco格式

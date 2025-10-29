@@ -34,4 +34,5 @@ python -m torch.distributed.launch --nproc_per_node=8 main.py       --config_fil
 2、dota：coco格式
 3、hazdet:coco格式
 4、uavdet：coco格式
-5、visdrone：
+5、visdrone：coc格式
+6、

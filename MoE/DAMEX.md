@@ -26,7 +26,7 @@
 - 专家 3：处理「夜间红外目标」（FLIR UAV、KAIST UAV）；
 
 测试指令：
-python -m torch.distributed.launch --nproc_per_node=8 main.py       --config_file config/uodb/DAMEX_4scale.py       --damex       --options batch_size=1 save_checkpoint_interval=4 epochs=36 lr=0.00014       --output_dir ./output/uodb/expt       --coco_path data/       --datasets coco dota  hazydet uavdet uav_dark  visdrone wideface
+python -m torch.distributed.launch --nproc_per_node=8 main.py       --config_file config/uodb/DAMEX_4scale.py       --damex       --options batch_size=1 save_checkpoint_interval=4 epochs=36 lr=0.00014       --output_dir ./output/uodb/expt       --coco_path data/       --datasets coco dota hazydet uavdet visdrone uav_dark wideface
 
 第一次测试：
 数据集：
@@ -34,3 +34,4 @@ python -m torch.distributed.launch --nproc_per_node=8 main.py       --config_fil
 2、dota：coco格式
 3、hazdet:coco格式
 4、uavdet：coco格式
+5、visdrone：

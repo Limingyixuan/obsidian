@@ -37,3 +37,4 @@ python -m torch.distributed.launch --nproc_per_node=8 main.py       --config_fil
 5、visdrone：coco格式
 6、uav_dark:coco格式
 7、soda：coco格式
+8、tiny_person:

@@ -28,4 +28,5 @@
 第一次测试：
 数据集：
 1、coco：coco格式
-2、dota：修改为coco格式
+2、dota：coco格式
+3、

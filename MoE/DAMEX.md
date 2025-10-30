@@ -22,34 +22,25 @@
 ## 原始数据集：
 
 - Pascal VOC：
-
 - MS-COCO：
-
 - KITTI
-
 - WiderFace
-
-DOTA
-
-DeepLesion
-
-Clipart
-
-Comic
-
-Watercolor
-
-LISA
-
-Kitchen
-
-
+- DOTA
+- DeepLesion
+- Clipart
+- Comic
+- Watercolor
+- LISA
+- Kitchen
 
 ## 航拍数据集：
-- 专家 1：处理「航拍大目标」（DOTA、FAIR1M）；
-- 专家 2：处理「低空小目标」（VisDrone、UAVDT）；
-- 专家 3：处理「夜间红外目标」（FLIR UAV、KAIST UAV）；
-
+- 专家 1：处理「通用目标」（coco）；
+- 专家 2：处理「遥感目标」（dota）；
+- 专家 3：处理「雾天目标」（hazdet）；
+- 专家4：处理「多拍摄条件」（UAVDT）
+- 专家5：处理「多类别」（UAVDT）
+- 专家6：处理「黑夜」（uav_dark）
+- - 专家7：处理「小目标」（uav_dark）
 测试指令：
 python -m torch.distributed.launch --nproc_per_node=8 main.py       --config_file config/uodb/DAMEX_4scale.py       --damex       --options batch_size=1 save_checkpoint_interval=4 epochs=36 lr=0.00014       --output_dir ./output/uodb/expt       --coco_path data/       --datasets coco dota hazydet uavdet visdrone uav_dark soda tiny
 

@@ -19,6 +19,31 @@
 - 路由器会自动把 “车辆相关的特征” 送到专家 1，“交通标志相关的特征” 送到专家 2；
 - 两个专家分别处理后，把结果传给共享检测头，检测头直接输出 “车辆 + 交通标志” 的完整结果 —— 全程不用人工干预 “这张图来自哪个数据集”“该用哪个检测器”。
 
+## 原始数据集：
+
+- Pascal VOC：
+
+- MS-COCO：
+
+- KITTI
+
+- WiderFace
+
+DOTA
+
+DeepLesion
+
+Clipart
+
+Comic
+
+Watercolor
+
+LISA
+
+Kitchen
+
+
 
 ## 航拍数据集：
 - 专家 1：处理「航拍大目标」（DOTA、FAIR1M）；
@@ -30,11 +55,11 @@ python -m torch.distributed.launch --nproc_per_node=8 main.py       --config_fil
 
 第一次测试：
 数据集：
-1、coco：coco格式
-2、dota：coco格式
-3、hazdet:coco格式
-4、uavdet：coco格式
-5、visdrone：coco格式
-6、uav_dark:coco格式
-7、soda：coco格式
-8、tiny_person:coco格式
+- 1、coco：coco格式
+- 2、dota：coco格式
+- 3、hazdet:coco格式
+- 4、uavdet：coco格式
+- 5、visdrone：coco格式
+- 6、uav_dark:coco格式
+- 7、soda：coco格式
+- 8、tiny_person:coco格式

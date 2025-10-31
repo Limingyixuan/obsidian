@@ -55,7 +55,7 @@ CUDA_VISIBLE_DEVICES=1,2,3,4,5,6,7,8 torchrun --nproc_per_node=8 main.py \
     --coco_path data/ \
     --datasets coco dota hazydet uavdet visdrone uav_dark soda tiny
 ```
-
+export NCCL_P2P_DISABLE=1
 
 第一次测试：
 数据集：

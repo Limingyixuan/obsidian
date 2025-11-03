@@ -45,6 +45,10 @@
 测试指令：
 python -m torch.distributed.launch --nproc_per_node=8 main.py       --config_file config/uodb/DAMEX_4scale.py       --damex       --options batch_size=2 save_checkpoint_interval=4 epochs=36 lr=0.00014       --output_dir ./output/uodb/expt       --coco_path data/       --datasets coco dota hazydet uavdet visdrone uav_dark soda tiny
 
+CUDA_VISIBLE_DEVICES=3,4,5,6,7,8
+python -m torch.distributed.launch --nproc_per_node=6 main.py       --config_file config/uodb/DAMEX_4scale.py       --damex       --options batch_size=2 save_checkpoint_interval=4 epochs=36 lr=0.00014       --output_dir ./output/uodb/expt       --coco_path data/       --datasets coco hazydet uavdet visdrone uav_dark tiny
+
+
 ```bash
 CUDA_VISIBLE_DEVICES=3,4,5,6,7,8 python -m torch.distributed.launch --nproc_per_node=6 main.py \
     --config_file config/uodb/DAMEX_4scale.py \

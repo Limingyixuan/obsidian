@@ -33,6 +33,10 @@
 - LISA
 - Kitchen
 
+环境配置：```
+python -m pip install panopticapi --index-url=https://pypi.tuna.tsinghua.edu.cn/simple 
+```
+
 ## 航拍数据集：
 - 专家 1：处理「通用目标」（coco）；
 - 专家 2：处理「遥感目标」（dota）；

@@ -49,9 +49,14 @@ python -m pip install panopticapi --index-url=https://pypi.tuna.tsinghua.edu.cn/
 测试指令：
 python -m torch.distributed.launch --nproc_per_node=8 main.py       --config_file config/uodb/DAMEX_4scale.py       --damex       --options batch_size=2 save_checkpoint_interval=4 epochs=36 lr=0.00014       --output_dir ./output/uodb/expt       --coco_path data/       --datasets coco dota hazydet uavdet visdrone uav_dark soda tiny
 
-
+6个数据集：
 CUDA_VISIBLE_DEVICES=3,4,5,6,7,8 
 python -m torch.distributed.launch --nproc_per_node=6 main.py       --config_file config/uodb/DAMEX_4scale.py       --damex       --options batch_size=2 save_checkpoint_interval=4 epochs=36 lr=0.00014       --output_dir ./output/uodb/expt       --coco_path data/       --datasets coco hazydet uavdet visdrone uav_dark tiny
+
+
+4个
+python -m torch.distributed.launch --nproc_per_node=4 main.py       --config_file config/uodb/DAMEX_4scale.py       --damex       --options batch_size=1 save_checkpoint_interval=4 epochs=36 lr=0.00014       --output_dir ./output/uodb/expt       --coco_path data/       --datasets dota hazydet uavdet visdrone 
+
 
 
 ```bash

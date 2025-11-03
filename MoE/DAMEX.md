@@ -80,6 +80,8 @@ CUDA_VISIBLE_DEVICES=1,2,3,4,5,6,7,8 torchrun --nproc_per_node=8 main.py \
 ```
 export NCCL_P2P_DISABLE=1
 
+
+
 第一次测试：
 数据集：
 - 1、coco：coco格式
@@ -90,3 +92,5 @@ export NCCL_P2P_DISABLE=1
 - 6、uav_dark:coco格式
 - 7、soda：coco格式
 - 8、tiny_person:coco格式
+问题一：
+一直出现显存不足的问题：

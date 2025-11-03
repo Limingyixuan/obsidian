@@ -95,16 +95,4 @@ export NCCL_P2P_DISABLE=1
 问题一：
 一直出现显存不足的问题：
 
-尝试改成2GPU分布式
-```bash
-export PYTORCH_CUDA_ALLOC_CONF="max_split_size_mb:128"
-
-python -m torch.distributed.launch --nproc_per_node=2 main.py \
-  --config_file config/uodb/DAMEX_4scale.py \
-  --damex \
-  --options batch_size=1 save_checkpoint_interval=4 epochs=36 lr=0.00014 \
-  --output_dir ./output/uodb/expt \
-  --coco_path data/ \
-  --datasets dota hazydet uavdet visdrone \
-  --amp  # AMP参数放在main.py之后，属于main.py的参数
 ```

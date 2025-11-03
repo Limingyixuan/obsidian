@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "MoE/Dynamic-DINO.md",
+                "file": "MoE/DAMEX.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Dynamic-DINO"
+              "title": "DAMEX"
             }
           }
         ]
@@ -140,13 +140,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "MoE/Dynamic-DINO.md",
+                "file": "MoE/DAMEX.md",
                 "followCursor": true,
                 "showSearch": true,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Dynamic-DINO 的大纲"
+              "title": "DAMEX 的大纲"
             }
           },
           {
@@ -190,8 +190,8 @@
   },
   "active": "068c421864dec402",
   "lastOpenFiles": [
-    "MoE/DAMEX.md",
     "MoE/Dynamic-DINO.md",
+    "MoE/DAMEX.md",
     "空对地目标检测/Shooting condition（LGNet）/Shooting condition insensitive unmanned aerial vehicle object detection.md",
     "MoE/image/Pasted image 20251023112927.png",
     "MoE/image",

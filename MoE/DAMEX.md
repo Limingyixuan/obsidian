@@ -95,4 +95,6 @@ export NCCL_P2P_DISABLE=1
 问题一：
 一直出现显存不足的问题：
 
-```
+
+问题二：
+gcc版本太高

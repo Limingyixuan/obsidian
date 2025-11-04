@@ -108,4 +108,5 @@ export NCCL_P2P_DISABLE=1
 
 
 问题二：
-gcc版本太高
+gcc版本太高：
+命令：

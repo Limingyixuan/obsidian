@@ -65,6 +65,7 @@ python -m torch.distributed.launch --nproc_per_node=6 main.py       --config_fil
 
 
 4个
+CUDA_VISIBLE_DEVICES=4,5,6,7 
 python -m torch.distributed.launch --nproc_per_node=4 main.py       --config_file config/uodb/DAMEX_4scale.py       --damex       --options batch_size=1 save_checkpoint_interval=4 epochs=36 lr=0.00014       --output_dir ./output/uodb/expt       --coco_path data/       --datasets dota hazydet uavdet visdrone --nproc_per_node=2 --amp
 
 

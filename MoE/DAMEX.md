@@ -38,6 +38,8 @@
 
 
 环境安装：
+安装dino时记得切换到11.8cuda
+pip install pycocotools
 
 
 

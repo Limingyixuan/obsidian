@@ -19,6 +19,9 @@
 - 路由器会自动把 “车辆相关的特征” 送到专家 1，“交通标志相关的特征” 送到专家 2；
 - 两个专家分别处理后，把结果传给共享检测头，检测头直接输出 “车辆 + 交通标志” 的完整结果 —— 全程不用人工干预 “这张图来自哪个数据集”“该用哪个检测器”。
 
+
+
+
 ## 原始数据集：
 
 - Pascal VOC：
@@ -32,6 +35,11 @@
 - Watercolor
 - LISA
 - Kitchen
+
+
+环境安装：
+
+
 
 环境配置：```
 python -m pip install panopticapi --index-url=https://pypi.tuna.tsinghua.edu.cn/simple 

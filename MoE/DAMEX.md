@@ -121,3 +121,5 @@ python -m torch.distributed.launch --nproc_per_node=2 main.py       --config_fil
 
 GPU情况：
 ![](MoE/image/Pasted%20image%2020251105092844.png)
+
+![](MoE/image/Pasted%20image%2020251105093952.png)

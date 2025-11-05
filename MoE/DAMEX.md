@@ -92,8 +92,8 @@ CUDA_VISIBLE_DEVICES=1,2,3,4,5,6,7,8 torchrun --nproc_per_node=8 main.py \
 export NCCL_P2P_DISABLE=1
 
 
-
-第一次测试：
+### 测试
+#### 第一次测试：
 数据集：
 - 1、coco：coco格式
 - 2、dota：coco格式
@@ -106,6 +106,7 @@ export NCCL_P2P_DISABLE=1
 问题一：
 一直出现显存不足的问题：
 
+初步推测是数据集的问题，
 
 问题二：
 gcc版本太高：
@@ -114,3 +115,9 @@ export PATH=/usr/local/cuda-11.8/bin:$PATH
 export LD_LIBRARY_PATH=/usr/local/cuda-11.8/lib64:$LD_LIBRARY_PATH
 
 
+#### 第二次测试，用两个数据集：
+coco + visdrone
+python -m torch.distributed.launch --nproc_per_node=2 main.py       --config_file config/uodb/DAMEX_4scale.py       --damex       --options batch_size=2 save_checkpoint_interval=4 epochs=36 lr=0.00014       --output_dir ./output/uodb/expt       --coco_path data/       --datasets coco visdrone
+
+GPU情况：
+![](MoE/image/Pasted%20image%2020251105092844.png)

@@ -123,3 +123,7 @@ GPU情况：
 ![](MoE/image/Pasted%20image%2020251105092844.png)
 
 ![](MoE/image/Pasted%20image%2020251105093952.png)
+
+第二次测试
+
+python -m torch.distributed.launch --nproc_per_node=8 main.py       --config_file config/uavdet_8/DAMEX_4scale.py       --damex       --options batch_size=1 save_checkpoint_interval=4 epochs=36 lr=0.00014       --output_dir ./output/uodb/expt       --coco_path data/       --datasets uavdet1 uavdet2 uavdet3 uavdet4 uavdet5 uavdet6 uavdet7 uavdet8

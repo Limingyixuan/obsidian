@@ -129,4 +129,14 @@ GPU情况：
 python -m torch.distributed.launch --nproc_per_node=8 main.py       --config_file config/uavdet8/DAMEX_4scale.py       --damex       --options batch_size=1 save_checkpoint_interval=4 epochs=12 lr=0.00014       --output_dir ./output/uodb/expt       --coco_path data/       --datasets uavdet_1 uavdet_2 uavdet_3 uavdet_4 uavdet_5 uavdet_6 uavdet_7 uavdet_8
 
 推理代码：
-python main_test.py --config_file configs/detr_coco.py  --config_file config/uavdet8/DAMEX_4scale.py --output_dir output/uodb/expt/checkpoint_best_regular_uavdet_1.pth-rank0
+多GPU推理：
+```bash
+torchrun --nproc_per_node=8 infer.py \  # 8个GPU
+  --config_file ./configs/damex_uodb.py \
+  --checkpoint_path ./output/checkpoint_best_regular.pth \
+  --input_path ./test_images/ \
+  --output_dir ./infer_results_multi_gpu \
+  --dist_url tcp://127.0.0.1:23456 \  # 分布式通信URL
+  --amp \
+  --save_vis
+```

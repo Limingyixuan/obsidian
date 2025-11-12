@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "MoE/DAMEX.md",
+                "file": "MoE/FAMHE-Net.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "DAMEX"
+              "title": "FAMHE-Net"
             }
           }
         ]
@@ -140,13 +140,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "MoE/DAMEX.md",
+                "file": "MoE/FAMHE-Net.md",
                 "followCursor": true,
                 "showSearch": true,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "DAMEX 的大纲"
+              "title": "FAMHE-Net 的大纲"
             }
           },
           {
@@ -191,8 +191,8 @@
   },
   "active": "068c421864dec402",
   "lastOpenFiles": [
-    "MoE/FAMHE-Net.md",
     "MoE/DAMEX.md",
+    "MoE/FAMHE-Net.md",
     "MoE/image/Pasted image 20251105093952.png",
     "MoE/image/Pasted image 20251105092844.png",
     "MoE/Dynamic-DINO.md",

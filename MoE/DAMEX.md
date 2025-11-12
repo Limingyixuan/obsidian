@@ -152,6 +152,9 @@ MSFF-FE：
 ![](MoE/image/Pasted%20image%2020251112205102.png)
 FOCU模块：
 
+
 ![](MoE/image/Pasted%20image%2020251112205122.png)
+
+
 
 将三通道的图片进行4 * 4的分割，得到12通道的特征

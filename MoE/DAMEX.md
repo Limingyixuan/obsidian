@@ -140,3 +140,7 @@ torchrun --nproc_per_node=8 infer.py \  # 8个GPU
   --amp \
   --save_vis
 ```
+
+
+来自UAVDETR的MSFF-FE模块：
+作用是：通过组合跨多个尺度的空间和频域信息来保留小目标细节。

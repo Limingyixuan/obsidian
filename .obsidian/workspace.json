@@ -4,21 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "a19f75cd6cbc5e23",
+        "id": "50151a6a59b4cd5d",
         "type": "tabs",
         "children": [
           {
-            "id": "068c421864dec402",
+            "id": "34cf39148306dd1c",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "MoE/DAMEX.md",
-                "mode": "source",
-                "source": false
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "DAMEX"
+              "title": "新标签页"
             }
           }
         ]
@@ -140,13 +136,12 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "MoE/DAMEX.md",
                 "followCursor": true,
                 "showSearch": true,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "DAMEX 的大纲"
+              "title": "大纲"
             }
           },
           {
@@ -189,13 +184,15 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "068c421864dec402",
+  "active": "34cf39148306dd1c",
   "lastOpenFiles": [
+    "未命名 1.canvas",
+    "MoE/DAMEX.md",
+    "MoE/未命名.canvas",
     "MoE/image/Pasted image 20251112205122.png",
     "MoE/image/Pasted image 20251112205102.png",
     "MoE/image/Pasted image 20251112205051.png",
     "MoE/FAMHE-Net.md",
-    "MoE/DAMEX.md",
     "MoE/image/Pasted image 20251105093952.png",
     "MoE/image/Pasted image 20251105092844.png",
     "MoE/Dynamic-DINO.md",
@@ -215,7 +212,6 @@
     "聚类算法/image/Pasted image 20251009152918.png",
     "聚类算法/image/Pasted image 20251009152909.png",
     "聚类算法/image/Pasted image 20251009150900.png",
-    "聚类算法/image/Pasted image 20251009112006.png",
     "UAV/Dynamic Texts From UAV Perspective Natural Images.md",
     "UAV/perception/基于环境上下文理解的天气感知无人机视角目标检测.md",
     "drone_cv/readme.md",

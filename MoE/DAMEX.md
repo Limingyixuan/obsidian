@@ -142,5 +142,16 @@ torchrun --nproc_per_node=8 infer.py \  # 8个GPU
 ```
 
 
+
+### 可添加：
 来自UAVDETR的MSFF-FE模块：
 作用是：通过组合跨多个尺度的空间和频域信息来保留小目标细节。
+![](MoE/image/Pasted%20image%2020251112205051.png)
+MSFF-FE：
+
+![](MoE/image/Pasted%20image%2020251112205102.png)
+FOCU模块：
+
+![](MoE/image/Pasted%20image%2020251112205122.png)
+
+将三通道的图片进行4 * 4的分割，得到12通道的特征

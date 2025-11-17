@@ -10,3 +10,7 @@ We demonstrate that large gains on these tasks can be realized by generative pre
 从无标记的文本中提取信息有巨大潜力
 
 从无标记的文本中提取信息面临的挑战：
+1、优化目标的不确定
+2、如何将学习到的文本表示如何迁移到具体的下游任务还未达成共识
+
+附：半监督学习的几种假设和方法：

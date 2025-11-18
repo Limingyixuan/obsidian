@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "LLM/GPT.md",
+                "file": "MoE/SM3Det.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "GPT"
+              "title": "SM3Det"
             }
           }
         ]
@@ -191,10 +191,11 @@
   },
   "active": "34cf39148306dd1c",
   "lastOpenFiles": [
+    "LLM/GPT.md",
+    "MoE/SM3Det.md",
     "LLM/image/Pasted image 20251117151932.png",
     "LLM/image",
     "MoE/DAMEX.md",
-    "LLM/GPT.md",
     "LLM/未命名",
     "LLM",
     "未命名 1.canvas",
@@ -221,7 +222,6 @@
     "损失函数",
     "聚类算法/image/Pasted image 20251009152918.png",
     "聚类算法/image/Pasted image 20251009152909.png",
-    "聚类算法/image/Pasted image 20251009150900.png",
     "UAV/Dynamic Texts From UAV Perspective Natural Images.md",
     "UAV/perception/基于环境上下文理解的天气感知无人机视角目标检测.md",
     "drone_cv/readme.md",

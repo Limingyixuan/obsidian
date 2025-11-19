@@ -145,7 +145,7 @@ torchrun --nproc_per_node=8 infer.py \  # 8个GPU
 
 第三次测试：
 
-python -m torch.distributed.launch --nproc_per_node=8 main.py       --config_file config/uavdet8/DAMEX_4scale.py       --damex       --options batch_size=1 save_checkpoint_interval=4 epochs=12 lr=0.00014       --output_dir ./output/uodb/expt       --coco_path data/       --datasets uavdet_1 uavdet_2 uavdet_3 uavdet_4 
+python -m torch.distributed.launch --nproc_per_node=4 main.py       --config_file config/uavdet8/DAMEX_4scale.py       --damex       --options batch_size=1 save_checkpoint_interval=4 epochs=12 lr=0.00014       --output_dir ./output/uodb/expt       --coco_path data/       --datasets uavdet_1 uavdet_2 uavdet_3 uavdet_4 
 ### 可添加：
 来自UAVDETR的MSFF-FE模块：
 作用是：通过组合跨多个尺度的空间和频域信息来保留小目标细节。

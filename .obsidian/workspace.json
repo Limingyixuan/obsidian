@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "MoE/SM3Det.md",
+                "file": "MoE/SM3Det（写论文的时候可以用上）.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "SM3Det"
+              "title": "SM3Det（写论文的时候可以用上）"
             }
           }
         ]
@@ -192,7 +192,7 @@
   "active": "34cf39148306dd1c",
   "lastOpenFiles": [
     "LLM/GPT.md",
-    "MoE/SM3Det.md",
+    "MoE/SM3Det（写论文的时候可以用上）.md",
     "LLM/image/Pasted image 20251117151932.png",
     "LLM/image",
     "MoE/DAMEX.md",

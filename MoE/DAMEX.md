@@ -148,7 +148,7 @@ torchrun --nproc_per_node=8 infer.py \  # 8个GPU
 python -m torch.distributed.launch --nproc_per_node=4 main.py       --config_file config/uavdet8/DAMEX_4scale.py       --damex       --options batch_size=2 save_checkpoint_interval=4 epochs=12 lr=0.00014       --output_dir ./output/uodb/expt       --coco_path data/       --datasets uavdet_1 uavdet_2 uavdet_3 uavdet_4 
 
 数据划分：
-![](MoE/image/Pasted image 20251120184935.png)
+![](MoE/image/Pastedimage20251120184935.png)
 
 export1：daylight（low and medium）
 export2：night

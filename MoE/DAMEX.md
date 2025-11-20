@@ -151,8 +151,11 @@ python -m torch.distributed.launch --nproc_per_node=4 main.py       --config_fil
 ![](image/Pasted%20image%2020251120184935.png)
 
 export1：daylight（low and medium）
+
 export2：night
+
 export3：hight-alt
+
 export4：fog
 
 

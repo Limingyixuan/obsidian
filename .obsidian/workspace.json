@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "MoE/DAMEX.md",
+                "file": "MoE/SM3Det（写论文的时候可以用上）.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "DAMEX"
+              "title": "SM3Det（写论文的时候可以用上）"
             }
           }
         ]
@@ -191,12 +191,13 @@
   },
   "active": "34cf39148306dd1c",
   "lastOpenFiles": [
+    "MoE/FAMHE-Net.md",
     "MoE/Dynamic-DINO.md",
+    "MoE/DAMEX.md",
     "MoE/SM3Det（写论文的时候可以用上）.md",
     "LLM/GPT.md",
     "LLM/image/Pasted image 20251117151932.png",
     "LLM/image",
-    "MoE/DAMEX.md",
     "LLM/未命名",
     "LLM",
     "未命名 1.canvas",
@@ -204,7 +205,6 @@
     "MoE/image/Pasted image 20251112205122.png",
     "MoE/image/Pasted image 20251112205102.png",
     "MoE/image/Pasted image 20251112205051.png",
-    "MoE/FAMHE-Net.md",
     "MoE/image/Pasted image 20251105093952.png",
     "MoE/image/Pasted image 20251105092844.png",
     "空对地目标检测/Shooting condition（LGNet）/Shooting condition insensitive unmanned aerial vehicle object detection.md",

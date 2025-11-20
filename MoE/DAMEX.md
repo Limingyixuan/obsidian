@@ -148,11 +148,20 @@ torchrun --nproc_per_node=8 infer.py \  # 8个GPU
 python -m torch.distributed.launch --nproc_per_node=4 main.py       --config_file config/uavdet8/DAMEX_4scale.py       --damex       --options batch_size=2 save_checkpoint_interval=4 epochs=12 lr=0.00014       --output_dir ./output/uodb/expt       --coco_path data/       --datasets uavdet_1 uavdet_2 uavdet_3 uavdet_4 
 
 数据划分：
+![](MoE/image/Pasted%20image%2020251120184935.png)
+
+export1：daylight（low and medium）
+export2：night
+export3：hight-alt
+export4：fog
 
 
-
-
+12 epoch2：
 ![](MoE/image/Pasted%20image%2020251120184837.png)
+
+5 epochs：
+
+
 
 ### 可添加：
 来自UAVDETR的MSFF-FE模块：

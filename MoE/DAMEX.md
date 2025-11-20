@@ -166,7 +166,7 @@ export4：fog
 ### 可添加：
 来自UAVDETR的MSFF-FE模块：
 作用是：通过组合跨多个尺度的空间和频域信息来保留小目标细节。
-![](MoE/image/Pasted%20image%2020251112205051.png)
+![](image/Pasted%20image%2020251112205051.png)
 MSFF-FE：
 
 ![](image/Pasted%20image%2020251112205102.png)

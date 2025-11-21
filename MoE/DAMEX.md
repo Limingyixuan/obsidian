@@ -162,9 +162,9 @@ export4：fog
 12 epoch2：
 ![](image/Pasted%20image%2020251120184837.png)
 
-5 epochs：
+4 epochs：
 
-
+![](image/Pasted%20image%2020251121152009.png)
 
 ### 可添加：
 来自UAVDETR的MSFF-FE模块：

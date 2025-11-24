@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "1.md",
+                "file": "MoE/DAMEX.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "1"
+              "title": "DAMEX"
             }
           }
         ]
@@ -191,8 +191,8 @@
   },
   "active": "34cf39148306dd1c",
   "lastOpenFiles": [
-    "MoE/DAMEX.md",
     "1.md",
+    "MoE/DAMEX.md",
     "MoE/image/Pasted image 20251121152009.png",
     "MoE/image/Pasted image 20251120184935.png",
     "MoE/image/Pasted image 20251120184837.png",

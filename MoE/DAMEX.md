@@ -169,7 +169,7 @@ export4：fog
 
 测试指令：
 
-
+python -m torch.distributed.launch --nproc_per_node=4 main_test.py       --config_file config/uavdet8/DAMEX_4scale.py       --damex       --options batch_size=2 save_checkpoint_interval=4 epochs=12 lr=0.00014       --output_dir ./output/uodb/expt      
 
 ### 可添加：
 来自UAVDETR的MSFF-FE模块：

@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "MoE/DAMEX.md",
+                "file": "1.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "DAMEX"
+              "title": "1"
             }
           }
         ]
@@ -191,13 +191,14 @@
   },
   "active": "34cf39148306dd1c",
   "lastOpenFiles": [
+    "MoE/DAMEX.md",
+    "1.md",
     "MoE/image/Pasted image 20251121152009.png",
     "MoE/image/Pasted image 20251120184935.png",
     "MoE/image/Pasted image 20251120184837.png",
     "MoE/SM3Det（写论文的时候可以用上）.md",
     "MoE/FAMHE-Net.md",
     "MoE/Dynamic-DINO.md",
-    "MoE/DAMEX.md",
     "LLM/GPT.md",
     "LLM/image/Pasted image 20251117151932.png",
     "LLM/image",
@@ -216,7 +217,6 @@
     "损失函数/关于多模态的损失函数.md",
     "空对地目标检测/航空目标检测综述.md",
     "空对地目标检测/大模型应用于UAV目标检测.md",
-    "空对地目标检测/image/Pasted image 20250804110326.png",
     "空对地目标检测/IDEA/idea.md",
     "聚类算法/当前思路：.md",
     "MoE",

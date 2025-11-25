@@ -14,3 +14,6 @@ We demonstrate that large gains on these tasks can be realized by generative pre
 2、如何将学习到的文本表示如何迁移到具体的下游任务还未达成共识
 
 附：半监督学习的几种假设和方法：
+
+farmework：
+两个阶段，预训练+微调

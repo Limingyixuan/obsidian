@@ -20,8 +20,21 @@
               "icon": "lucide-file",
               "title": "GPT"
             }
+          },
+          {
+            "id": "cd83f062ca1dbb3d",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.10.6"
+              },
+              "icon": "lucide-book-up",
+              "title": "版本说明 1.10.6"
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -189,7 +202,7 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "34cf39148306dd1c",
+  "active": "cd83f062ca1dbb3d",
   "lastOpenFiles": [
     "1.md",
     "MoE/DAMEX.md",

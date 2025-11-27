@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "MoE/DAMEX.md",
+                "file": "MoE/SM3Det（写论文的时候可以用上）.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "DAMEX"
+              "title": "SM3Det（写论文的时候可以用上）"
             }
           }
         ],
@@ -206,8 +206,8 @@
   },
   "active": "cd83f062ca1dbb3d",
   "lastOpenFiles": [
-    "1.md",
     "MoE/DAMEX.md",
+    "1.md",
     "MoE/image/Pasted image 20251121152009.png",
     "MoE/image/Pasted image 20251120184935.png",
     "MoE/image/Pasted image 20251120184837.png",

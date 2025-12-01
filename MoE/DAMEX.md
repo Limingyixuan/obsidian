@@ -196,3 +196,8 @@ FOCU模块：
 
 
 数据集：
+dota：基准，用不用再说
+visdrone
+uavdet：
+hazydet
+uavdark

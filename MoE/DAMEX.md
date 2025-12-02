@@ -205,5 +205,7 @@ uavdet：
 hazydet
 uavdark
 
+增加阈值参数：small_obj_thr、low_light_thr、fog_contrast_thr，可对
+
 指令：
 python -m torch.distributed.launch --nproc_per_node=4 main_change.py       --config_file config/uavdet8/DAMEX_4scale.py       --damex       --options batch_size=2 save_checkpoint_interval=4 epochs=40 lr=0.00014       --output_dir ./output/uodb/expt       --coco_path data/       --datasets uavdet_1 uavdet_2 uavdet_3 uavdet_4      --dataset_file uav  

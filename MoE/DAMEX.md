@@ -199,7 +199,7 @@ FOCU模块：
 实现，复合场景使用多个专家，自动匹配对应的几个专家
 
 数据集：
-dota：基准，用不用再说
+dota：基准，待定
 visdrone
 uavdet：
 hazydet

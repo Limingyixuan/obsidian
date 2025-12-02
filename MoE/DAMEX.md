@@ -192,6 +192,8 @@ FOCU模块：
 
 
 
+
+
 第四次实验：模型修改：
 
 实现，复合场景使用多个专家，自动匹配对应的几个专家
@@ -202,3 +204,6 @@ visdrone
 uavdet：
 hazydet
 uavdark
+
+指令：
+python -m torch.distributed.launch --nproc_per_node=4 main_change.py       --config_file config/uavdet8/DAMEX_4scale.py       --damex       --options batch_size=2 save_checkpoint_interval=4 epochs=40 lr=0.00014       --output_dir ./output/uodb/expt       --coco_path data/       --datasets uavdet_1 uavdet_2 uavdet_3 uavdet_4      --dataset_file uav  

@@ -207,5 +207,21 @@ uavdark
 
 增加阈值参数：small_obj_thr、low_light_thr、fog_contrast_thr，可对图片是否属于小目标/低光/雾天进行判断
 
+使用大模型对图片的属性进行判断通义千问大模型
+配置环境变量：
+```bash
+echo "export DASHSCOPE_API_KEY='sk-4326c37b9758438793dce16f90865a90'" >> ~/.bashrc
+```
+
+
+
+
+
+
+
+
+
+
+
 指令：
 python -m torch.distributed.launch --nproc_per_node=4 main_change.py       --config_file config/uavdet8/DAMEX_4scale.py       --damex       --options batch_size=2 save_checkpoint_interval=4 epochs=40 lr=0.00014       --output_dir ./output/uodb/expt       --coco_path data/       --datasets uavdet_1 uavdet_2 uavdet_3 uavdet_4      --dataset_file uav  

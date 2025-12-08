@@ -213,6 +213,8 @@ uavdark
 echo "export DASHSCOPE_API_KEY='sk-4326c37b9758438793dce16f90865a90'" >> ~/.bashrc
 ```
 
+token计算：
+uavdet数据集：resize为1024 * 1024：28 * 28的图像为1token所以转变后的一张图片的token是1369，
 
 
 

@@ -214,7 +214,8 @@ echo "export DASHSCOPE_API_KEY='sk-4326c37b9758438793dce16f90865a90'" >> ~/.bash
 ```
 
 token计算：
-uavdet数据集：resize为1024 * 1024：28 * 28的图像为1token所以转变后的一张图片的token是1369，
+uavdet数据集：resize为1024 * 1024：28 * 28的图像为1token所以转变后的一张图片的token是1369，50753张图片结果为55,766,215token 55块钱 
+batch调用半价即，27.5元
 
 
 

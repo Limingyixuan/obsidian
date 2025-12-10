@@ -220,8 +220,57 @@ batch调用半价即，27.5元
 43.47 - 2780
 
 
+对于门控单元的修改：
+```python
+def forward(self, input: Tensor, scene_labels=None, gate_index=0, ...):
+    # 路由函数
+    def routing():
+        # 原生逻辑：gate_type计算专家得分（如cosine_top的余弦相似度→logits）
+        logits = gctx(x)
+        # 训练时加噪声，推理时不加
+        if self.training and gctx.gate_noise > 0:
+            logits_w_noise = logits + gctx.gate_noise * torch.randn_like(logits) / self.num_global_experts
+        else:
+            logits_w_noise = logits
+        # 原生逻辑：计算专家选择概率（softmax）
+        scores = F.softmax(logits_w_noise, dim=1)
 
+        # 新增：推理时阈值筛选专家（核心逻辑）
+        if not self.training:
+            batch_size = input.shape[0]
+            token_per_sample = input.shape[1] if len(input.shape) >=3 else 1
+            target_experts_list = []
+            for sample_idx in range(batch_size):
+                # 取当前样本所有token的平均概率（代表样本整体场景特征）
+                sample_scores = scores[sample_idx*token_per_sample : (sample_idx+1)*token_per_sample].mean(dim=0)
+                # 筛选概率超阈值的专家
+                expert_ids = torch.where(sample_scores > self.infer_threshold)[0].cpu().numpy().tolist()
+                
+                # 适配文档复用场景：
+                if len(expert_ids) >=2:  # 多专家超阈值→复合场景（功能复用）
+                    expert_ids.append(self.fusion_expert_idx)  # 强制添加E4融合
+                    expert_ids = list(set(expert_ids))  # 去重
+                elif len(expert_ids) ==1:  # 单专家超阈值→难场景（参数复用）
+                    pass  # 仅激活专属专家，不添加E4
+                else:  # 无专家超阈值→激活通用专家E4
+                    expert_ids = [self.fusion_expert_idx]
+                
+                target_experts_list.append(expert_ids)
+            
+            # 生成掩码：仅激活超阈值的专家，屏蔽其他专家
+            logit_mask = torch.zeros_like(logits, device=logits.device)
+            for token_idx in range(logits.shape[0]):
+                sample_idx = token_idx // token_per_sample
+                target_experts = target_experts_list[min(sample_idx, batch_size-1)]
+                logit_mask[token_idx, target_experts] = 1.0
+            logits = logits + (1 - logit_mask) * (-1e9)  # 屏蔽无关专家
 
+        # 原生逻辑：选择Top-k专家（此时仅超阈值专家有概率，其余为0）
+        topk_ids = torch.topk(scores, gctx.top_k, dim=1).indices
+        # 其余损失计算、extract_critical逻辑不变...
+        return logits.dtype, extract_critical(...)
+    # 其余forward逻辑不变...
+```
 
 
 

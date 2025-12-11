@@ -272,7 +272,7 @@ def forward(self, input: Tensor, scene_labels=None, gate_index=0, ...):
     # 其余forward逻辑不变...
 ```
 
-
+1、将标签输入到moe层，进行路由分配，方法是，使用标签中的sence（场景字段）当前有三个值【是否包含小目标，是否为黑夜，是否为雾天】
 
 
 指令：

@@ -275,8 +275,8 @@ def forward(self, input: Tensor, scene_labels=None, gate_index=0, ...):
 1、将标签输入到moe层，进行路由分配，方法是，使用标签中的sence（场景字段）当前有三个值【是否包含小目标，是否为黑夜，是否为雾天】
 
 
-指令：
-python -m torch.distributed.launch --nproc_per_node=4 main_change.py       --config_file config/uavdet8/DAMEX_4scale.py       --damex       --options batch_size=2 save_checkpoint_interval=4 epochs=40 lr=0.00014       --output_dir ./output/uodb/expt       --coco_path data/       --datasets uavdet_1 uavdet_2 uavdet_3 uavdet_4      --dataset_file uav  
+uav测试
 
 
 
+指令：python -m torch.distributed.launch --nproc_per_node=4 --master_port=29501   main_change.py       --config_file config/uav_data/DAMEX_4scale.py       --damex       --options batch_size=2 save_checkpoint_interval=4 epochs=40 lr=0.00014       --output_dir ./output/uodb/expt       --coco_path data/       --datasets uavdet visdrone

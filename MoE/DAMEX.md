@@ -280,3 +280,4 @@ uav测试
 
 
 指令：python -m torch.distributed.launch --nproc_per_node=4 --master_port=29501   main_change.py       --config_file config/uav_data/DAMEX_4scale.py       --damex       --options batch_size=2 save_checkpoint_interval=4 epochs=40 lr=0.00014       --output_dir ./output/uodb/expt       --coco_path data/       --datasets uavdet visdrone
+

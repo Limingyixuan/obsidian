@@ -293,4 +293,6 @@ moe的uav目标检测，目标是解决多模态的目标检测任务，还有�
 Efficient End-to-End Object Detection for Unmanned Aerial Vehicle Imagery
 
 
-3、
+### 3、Enhancing_RT_DETR
+
+### 4、YOLO-Master

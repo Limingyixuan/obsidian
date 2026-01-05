@@ -284,7 +284,7 @@ uav测试
 
 
 
-## 对比实验
+## 对比论文
 ### 1、SM3Det：
 moe的uav目标检测，目标是解决多模态的目标检测任务，还有多任务（意思是不同的检测框，不同的拍摄角度）
 对比点：sm3det没有对于多拍摄条件的优化，
@@ -294,5 +294,7 @@ Efficient End-to-End Object Detection for Unmanned Aerial Vehicle Imagery
 
 
 ### 3、Enhancing_RT_DETR
+
+
 
 ### 4、YOLO-Master

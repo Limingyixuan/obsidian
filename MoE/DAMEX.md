@@ -281,3 +281,10 @@ uav测试
 
 指令：python -m torch.distributed.launch --nproc_per_node=4 --master_port=29501   main_change.py       --config_file config/uav_data/DAMEX_4scale.py       --damex       --options batch_size=2 save_checkpoint_interval=4 epochs=40 lr=0.00014       --output_dir ./output/uodb/expt       --coco_path data/       --datasets uavdet visdrone
 
+
+
+
+## 对比实验
+### 1、SM3Det：
+moe的uav目标检测，目标是解决多模态的目标检测任务，还有多任务（意思是不同的检测框，不同的拍摄角度）
+对比点：sm3det没有对于多拍摄条件的优化，对于

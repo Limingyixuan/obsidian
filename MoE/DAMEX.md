@@ -289,4 +289,5 @@ uav测试
 moe的uav目标检测，目标是解决多模态的目标检测任务，还有多任务（意思是不同的检测框，不同的拍摄角度）
 对比点：sm3det没有对于多拍摄条件的优化，
 
-2、UAVDETR
+### 2、UAV-DETR: 
+Efficient End-to-End Object Detection for Unmanned Aerial Vehicle Imagery

@@ -291,3 +291,6 @@ moe的uav目标检测，目标是解决多模态的目标检测任务，还有�
 
 ### 2、UAV-DETR: 
 Efficient End-to-End Object Detection for Unmanned Aerial Vehicle Imagery
+
+
+3、

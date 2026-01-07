@@ -287,6 +287,8 @@ python -m torch.distributed.launch --nproc_per_node=4 --master_port=29501   main
 
 
 ### 显存泄露：
+模型的大小：1076M
+
 修改1：
 修改export的
 

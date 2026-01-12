@@ -171,6 +171,11 @@ export4：fog
 
 python -m torch.distributed.launch --nproc_per_node=4 main_test.py       --config_file config/uavdet8/DAMEX_4scale.py       --damex       --options batch_size=2 save_checkpoint_interval=4 epochs=12 lr=0.00014       --output_dir ./output/uodb/expt      
 
+visdrone的测试：
+
+![](image/Pasted%20image%2020260112151200.png)
+
+
 ### 可添加：
 来自UAVDETR的MSFF-FE模块：
 作用是：通过组合跨多个尺度的空间和频域信息来保留小目标细节。

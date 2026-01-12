@@ -187,7 +187,7 @@ python -m torch.distributed.launch --nproc_per_node=4 --master_port=29501 main_c
 ```
 tensorboard --logdir=./output/visdrone/result1/tensorboard --port=6006
 ```
-
+[TensorBoard](http://localhost:6006/)
 ### 可添加：
 来自UAVDETR的MSFF-FE模块：
 作用是：通过组合跨多个尺度的空间和频域信息来保留小目标细节。

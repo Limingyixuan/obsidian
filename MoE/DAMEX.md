@@ -171,12 +171,22 @@ export4：fog
 
 python -m torch.distributed.launch --nproc_per_node=4 main_test.py       --config_file config/uavdet8/DAMEX_4scale.py       --damex       --options batch_size=2 save_checkpoint_interval=4 epochs=12 lr=0.00014       --output_dir ./output/uodb/expt      
 
-visdrone的测试：
+#### visdrone的测试（方法一）：
+
+训练指令：
+python -m torch.distributed.launch --nproc_per_node=4 --master_port=29501 main_change.py --config_file config/visdrone_4/DAMEX_4scale.py --damex --options batch_size=2 save_checkpoint_interval=4 epochs=36 lr=0.00014 --output_dir ./output/visdrone/result1 --coco_path data/ --datasets visdrone_1 visdrone_2 visdrone_3 visdrone_4
+划分方式：雾天，黑夜，空旷，密集
 
 ![](image/Pasted%20image%2020260112151200.png)
 
 
 ![](image/Pasted%20image%2020260112151245.png)
+
+
+查看loss曲线：
+```
+tensorboard --logdir=./output/visdrone/result1/tensorboard --port=6006
+```
 
 ### 可添加：
 来自UAVDETR的MSFF-FE模块：

@@ -188,6 +188,9 @@ python -m torch.distributed.launch --nproc_per_node=4 --master_port=29501 main_c
 
 
 第二次划分：![](image/Pasted%20image%2020260113100542.png)
+val：
+![](image/Pasted%20image%2020260113203412.png)
+
 结果保存在result3中
 tensorboard --logdir=./output/visdrone/result3/tensorboard --reload_multifile=True --reload_interval=5 --port=6006
 

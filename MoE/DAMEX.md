@@ -183,6 +183,11 @@ python -m torch.distributed.launch --nproc_per_node=4 --master_port=29501 main_c
 ![](image/Pasted%20image%2020260112151245.png)
 
 
+第二次划分：![](image/Pasted%20image%2020260113100542.png)
+
+
+
+
 查看loss曲线：
 ```
 tensorboard --logdir=./output/visdrone/result1/tensorboard --port=6006

@@ -335,3 +335,8 @@ Efficient End-to-End Object Detection for Unmanned Aerial Vehicle Imagery
 
 
 ### 4、YOLO-Master
+
+
+## 模型细节
+
+1、模型输出的内容

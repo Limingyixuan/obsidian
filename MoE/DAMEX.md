@@ -207,6 +207,15 @@ tensorboard --logdir=./output/visdrone/result_40epoch/tensorboard --reload_multi
 
 ##### 第二次训练：40epoch
 
+
+
+测试结果：
+
+![](image/Pasted%20image%2020260114170427.png)
+![](image/Pasted%20image%2020260114170503.png)
+
+
+
 ### 查看loss曲线：
 ```
 tensorboard --logdir=./output/visdrone/result1/tensorboard --port=6006

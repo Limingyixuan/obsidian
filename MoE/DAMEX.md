@@ -192,6 +192,8 @@ python -m torch.distributed.launch --nproc_per_node=4 --master_port=29501 main_c
 val：
 ![](image/Pasted%20image%2020260113203412.png)
 
+
+###### 第一次训练，36epoch
 结果保存在result3中
 tensorboard --logdir=./output/visdrone/result_40epoch/tensorboard --reload_multifile=True --reload_interval=5 --port=6006
 
@@ -201,8 +203,9 @@ tensorboard --logdir=./output/visdrone/result_40epoch/tensorboard --reload_multi
 
 ![](image/Pasted%20image%2020260113201227.png)
 
+###### 第二次训练：40epoch
 
-查看loss曲线：
+#### 查看loss曲线：
 ```
 tensorboard --logdir=./output/visdrone/result1/tensorboard --port=6006
 ```

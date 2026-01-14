@@ -192,7 +192,7 @@ val：
 ![](image/Pasted%20image%2020260113203412.png)
 
 结果保存在result3中
-tensorboard --logdir=./output/visdrone/result3/tensorboard --reload_multifile=True --reload_interval=5 --port=6006
+tensorboard --logdir=./output/visdrone/result_40epoch/tensorboard --reload_multifile=True --reload_interval=5 --port=6006
 
 ![](image/Pasted%20image%2020260113201145.png)
 

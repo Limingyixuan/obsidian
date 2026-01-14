@@ -92,8 +92,8 @@ CUDA_VISIBLE_DEVICES=1,2,3,4,5,6,7,8 torchrun --nproc_per_node=8 main.py \
 export NCCL_P2P_DISABLE=1
 
 
-### 测试
-#### 第一次测试：
+## 测试
+### 第一次测试：
 数据集：
 - 1、coco：coco格式
 - 2、dota：coco格式
@@ -109,13 +109,13 @@ export NCCL_P2P_DISABLE=1
 初步推测是数据集的问题，
 
 问题二：
-gcc版本太高：
+### gcc版本太高：
 命令：
 export PATH=/usr/local/cuda-11.8/bin:$PATH
 export LD_LIBRARY_PATH=/usr/local/cuda-11.8/lib64:$LD_LIBRARY_PATH
 
 
-#### 第二次测试，用两个数据集：
+### 第二次测试，用两个数据集：
 coco + visdrone
 python -m torch.distributed.launch --nproc_per_node=2 main.py       --config_file config/uodb/DAMEX_4scale.py       --damex       --options batch_size=2 save_checkpoint_interval=4 epochs=36 lr=0.00014       --output_dir ./output/uodb/expt       --coco_path data/       --datasets coco visdrone
 
@@ -171,7 +171,7 @@ export4：fog
 
 python -m torch.distributed.launch --nproc_per_node=4 main_test.py       --config_file config/uavdet8/DAMEX_4scale.py       --damex       --options batch_size=2 save_checkpoint_interval=4 epochs=12 lr=0.00014       --output_dir ./output/uodb/expt      
 
-#### visdrone的测试（方法一）：
+### visdrone的测试（方法一）：
 
 训练指令：
 python -m torch.distributed.launch --nproc_per_node=4 --master_port=29501 main_change.py --config_file config/visdrone_4/DAMEX_4scale.py --damex --options batch_size=2 save_checkpoint_interval=4 epochs=36 lr=0.00014 --output_dir ./output/visdrone/result1 --coco_path data/ --datasets visdrone_1 visdrone_2 visdrone_3 visdrone_4
@@ -189,13 +189,13 @@ python -m torch.distributed.launch --nproc_per_node=4 --master_port=29501 main_c
 
 
 
-##### 第二次划分：
+#### 第二次划分：
 ![](image/Pasted%20image%2020260113100542.png)
 val：
 ![](image/Pasted%20image%2020260113203412.png)
 
 
-###### 第一次训练，36epoch
+##### 第一次训练，36epoch
 结果保存在result3中
 tensorboard --logdir=./output/visdrone/result_40epoch/tensorboard --reload_multifile=True --reload_interval=5 --port=6006
 
@@ -205,9 +205,9 @@ tensorboard --logdir=./output/visdrone/result_40epoch/tensorboard --reload_multi
 
 ![](image/Pasted%20image%2020260113201227.png)
 
-###### 第二次训练：40epoch
+##### 第二次训练：40epoch
 
-#### 查看loss曲线：
+### 查看loss曲线：
 ```
 tensorboard --logdir=./output/visdrone/result1/tensorboard --port=6006
 ```

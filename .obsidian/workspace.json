@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "LLM/GPT.md",
+                "file": "MoE/UAVDETR.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "GPT"
+              "title": "UAVDETR"
             }
           },
           {
@@ -35,8 +35,7 @@
               "title": "DAMEX"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -93,8 +92,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "right": {
     "id": "18a9bd2e72a5bcaa",
@@ -156,13 +154,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "MoE/DAMEX.md",
+                "file": "MoE/UAVDETR.md",
                 "followCursor": true,
                 "showSearch": true,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "DAMEX 的大纲"
+              "title": "UAVDETR 的大纲"
             }
           },
           {
@@ -204,8 +202,13 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "cd83f062ca1dbb3d",
+  "active": "34cf39148306dd1c",
   "lastOpenFiles": [
+    "MoE/image/Pasted image 20260121094325.png",
+    "MoE/image/Pasted image 20260121094253.png",
+    "LLM/GPT.md",
+    "MoE/UAVDETR.md",
+    "MoE/DAMEX.md",
     "MoE/image/Pasted image 20260114170503.png",
     "MoE/image/Pasted image 20260114170427.png",
     "MoE/image/Pasted image 20260113203412.png",
@@ -216,13 +219,9 @@
     "MoE/image/Pasted image 20260112151245.png",
     "MoE/image/Pasted image 20260112151200.png",
     "1.md",
-    "MoE/DAMEX.md",
     "MoE/SM3Det（写论文的时候可以用上）.md",
-    "MoE/image/Pasted image 20251127110757.png",
-    "MoE/image/Pasted image 20251121152009.png",
     "MoE/FAMHE-Net.md",
     "MoE/Dynamic-DINO.md",
-    "LLM/GPT.md",
     "LLM/image",
     "LLM/未命名",
     "LLM",
@@ -252,7 +251,6 @@
     "UAV/llm.md",
     "UAV/NMS.md",
     "UAV/SPAR.md",
-    "UAV/transformer.md",
     "未命名.canvas",
     "空对地目标检测/IDEA",
     "english/未命名.canvas"

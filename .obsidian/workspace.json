@@ -8,20 +8,6 @@
         "type": "tabs",
         "children": [
           {
-            "id": "34cf39148306dd1c",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "MoE/UAVDETR.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "UAVDETR"
-            }
-          },
-          {
             "id": "cd83f062ca1dbb3d",
             "type": "leaf",
             "state": {
@@ -154,13 +140,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "MoE/UAVDETR.md",
+                "file": "MoE/DAMEX.md",
                 "followCursor": true,
                 "showSearch": true,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "UAVDETR 的大纲"
+              "title": "DAMEX 的大纲"
             }
           },
           {
@@ -202,11 +188,12 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "34cf39148306dd1c",
+  "active": "cd83f062ca1dbb3d",
   "lastOpenFiles": [
+    "未命名.canvas",
+    "MoE/UAVDETR.md",
     "MoE/image/Pasted image 20260122094245.png",
     "MoE/DAMEX.md",
-    "MoE/UAVDETR.md",
     "MoE/image/Pasted image 20260121094325.png",
     "MoE/image/Pasted image 20260121094253.png",
     "LLM/GPT.md",
@@ -217,7 +204,6 @@
     "MoE/image/Pasted image 20260113201203.png",
     "MoE/image/Pasted image 20260113201145.png",
     "MoE/image/Pasted image 20260113100542.png",
-    "MoE/image/Pasted image 20260112151245.png",
     "1.md",
     "MoE/SM3Det（写论文的时候可以用上）.md",
     "MoE/FAMHE-Net.md",
@@ -251,7 +237,6 @@
     "UAV/llm.md",
     "UAV/NMS.md",
     "UAV/SPAR.md",
-    "未命名.canvas",
     "空对地目标检测/IDEA",
     "english/未命名.canvas"
   ]

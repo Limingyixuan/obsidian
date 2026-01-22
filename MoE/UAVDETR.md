@@ -4,7 +4,8 @@
 ![](image/Pasted%20image%2020260121094325.png)
 
 
-
+加上初始moe：
+![](image/Pasted%20image%2020260122094245.png)
 
 ### 查看loss：
 tensorboard --logdir=./output/visdrone/result1/tensorboard --port=6006

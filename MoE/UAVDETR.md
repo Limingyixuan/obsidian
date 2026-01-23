@@ -8,11 +8,14 @@ AP50:0.421
 mAP:0.25
 ![](image/Pasted%20image%2020260123093546.png)
 
-
+![](image/Pasted%20image%2020260123140902.png)
 加上初始moe：
 AP50:0.25
 mAP:0.422
 ![](image/Pasted%20image%2020260122094245.png)
+
+
+![](image/Pasted%20image%2020260123141142.png)
 
 ### 查看loss：
 tensorboard --logdir=./output/visdrone/result1/tensorboard --port=6006

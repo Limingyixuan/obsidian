@@ -30,7 +30,8 @@ mAP：33.5
 
 
 ## 一一对应的moe：
-
+修改之处：
+1、transformer的MoEFFN、MoEDeformableTransformerDecoderLayer
 
 
 ### 查看loss：

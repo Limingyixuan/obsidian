@@ -41,6 +41,8 @@ forward加入传回moe_expert_indices
 3、tasks：
 添加接收head中传回来的exports，修改loss方法中的损失计算
 
+4、
+
 
 ### 查看loss：
 tensorboard --logdir=./output/visdrone/result1/tensorboard --port=6006

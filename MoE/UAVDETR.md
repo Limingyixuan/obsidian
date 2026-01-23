@@ -38,6 +38,8 @@ forward加入传回moe_expert_indices
 2、head:
 接收transformer的moe_expert_indices
 返回接收transformer的moe_expert_indices
+3、tasks：
+添加接收head中传回来的exports，修改loss方法中的损失计算
 
 
 ### 查看loss：

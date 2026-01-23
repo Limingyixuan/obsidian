@@ -1,21 +1,37 @@
 
-### 初始模型：
+## 初始模型：
 #### 训练1：291epoch：
 ![](image/Pasted%20image%2020260121094325.png)
 
-400epoch：
+### 400epoch：
+#### 测试集：
 AP50:0.421
 mAP:0.25
 ![](image/Pasted%20image%2020260123093546.png)
 
+
+#### 验证集：
+AP50：52.5
+mAP：32.9
 ![](image/Pasted%20image%2020260123140902.png)
-加上初始moe：
+
+
+
+## 加上初始moe：
+#### 测试集
 AP50:0.25
 mAP:0.422
 ![](image/Pasted%20image%2020260122094245.png)
 
-
+#### 验证集
+AP50：53.3
+mAP：33.5
 ![](image/Pasted%20image%2020260123141142.png)
+
+
+## 一一对应的moe：
+
+
 
 ### 查看loss：
 tensorboard --logdir=./output/visdrone/result1/tensorboard --port=6006

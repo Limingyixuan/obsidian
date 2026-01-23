@@ -31,7 +31,11 @@ mAP：33.5
 
 ## 一一对应的moe：
 修改之处：
-1、transformer的MoEFFN、MoEDeformableTransformerDecoderLayer
+1、transformer：
+增加MoEFFN、MoEDeformableTransformerDecoderLayer
+修改DeformableTransformerDecoder
+forward加入传回moe_expert_indices
+
 
 
 ### 查看loss：

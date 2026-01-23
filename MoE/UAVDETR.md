@@ -35,7 +35,9 @@ mAP：33.5
 增加MoEFFN、MoEDeformableTransformerDecoderLayer
 修改DeformableTransformerDecoder
 forward加入传回moe_expert_indices
-
+2、head:
+接收transformer的moe_expert_indices
+返回接收transformer的moe_expert_indices
 
 
 ### 查看loss：

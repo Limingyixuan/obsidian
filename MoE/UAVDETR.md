@@ -3,6 +3,9 @@
 #### 训练1：291epoch：
 ![](image/Pasted%20image%2020260121094325.png)
 
+400epoch：
+![](image/Pasted%20image%2020260123093546.png)
+
 
 加上初始moe：
 ![](image/Pasted%20image%2020260122094245.png)

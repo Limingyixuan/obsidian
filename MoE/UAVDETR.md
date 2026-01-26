@@ -43,6 +43,7 @@ forward加入传回moe_expert_indices
 
 4、
 
-
+## 文件说明：
+保存图片条件的txt文件每个文件一行，每行代表的意义：
 ### 查看loss：
 tensorboard --logdir=./output/visdrone/result1/tensorboard --port=6006

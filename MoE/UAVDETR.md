@@ -44,6 +44,7 @@ forward加入传回moe_expert_indices
 4、
 
 ## 文件说明：
-保存图片条件的txt文件每个文件一行，每行代表的意义：
+保存图片条件的txt文件每个文件一行，
+每行代表的意义：是否低光(0=无/1=是)	是否雾天(0=无/1=是)	目标是否密集(0=无/1=是)	目标是否空旷(0=无/1=是)
 ### 查看loss：
 tensorboard --logdir=./output/visdrone/result1/tensorboard --port=6006

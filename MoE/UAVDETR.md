@@ -29,7 +29,11 @@ mAP：33.5
 ![](image/Pasted%20image%2020260123141142.png)
 
 
-## 一一对应的moe：
+
+
+
+## 一一对应的moe（moe2）：
+保存在exp6中
 修改之处：
 1、transformer：
 增加MoEFFN、MoEDeformableTransformerDecoderLayer
@@ -42,6 +46,8 @@ forward加入传回moe_expert_indices
 添加接收head中传回来的exports，修改loss方法中的损失计算
 
 4、
+
+
 
 ## 文件说明：
 保存图片条件的txt文件每个文件一行，

@@ -42,11 +42,15 @@ forward加入传回moe_expert_indices
 2、head:
 接收transformer的moe_expert_indices
 返回接收transformer的moe_expert_indices
-3、tasks：
+3、nn/tasks：
 添加接收head中传回来的exports，修改loss方法中的损失计算
 
-4、
+4、ultralytics/models/utils/loss.py
+增加了moe_loss的修改
 
+测试结果：
+
+![](image/Pasted%20image%2020260202122909.png)
 
 
 ## 文件说明：

@@ -38,10 +38,11 @@ mAP：33.5
 保存在exp6中
 ### 修改：
 1、transformer：
-增加MoEFFN、MoEDeformableTransformerDecoderLayer
-修改DeformableTransformerDecoder
+增加MoEFFN、MoEDeformableTransformerDecoderLayer，MOE_DeformableTransformerDecoder
+
 forward加入传回moe_expert_indices
 2、head:
+增加MOE_RTDETRDecoder类实现新功能
 接收transformer的moe_expert_indices
 返回接收transformer的moe_expert_indices
 3、nn/tasks：

@@ -5,6 +5,9 @@
 
 ### 400epoch：
 runs_origin/train/exp
+
+uavdetr-r50 summary: 544 layers, 44640370 parameters, 0 gradients, 
+151.9 GFLOPs
 #### 测试集：
 AP50:0.421
 mAP:0.25
@@ -12,6 +15,7 @@ mAP:0.25
 
 
 #### 验证集：
+151.9 GFLOPs
 AP50：52.5
 mAP：32.9
 ![](image/Pasted%20image%2020260123140902.png)

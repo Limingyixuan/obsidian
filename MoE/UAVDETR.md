@@ -4,6 +4,7 @@
 ![](image/Pasted%20image%2020260121094325.png)
 
 ### 400epoch：
+runs_origin/train/exp
 #### 测试集：
 AP50:0.421
 mAP:0.25
@@ -18,6 +19,7 @@ mAP：32.9
 
 
 ## 加上初始moe：
+runs_moe1/train/exp5
 #### 测试集
 AP50:0.25
 mAP:0.422
@@ -34,7 +36,7 @@ mAP：33.5
 
 ## 一一对应的moe（moe2）：
 保存在exp6中
-修改之处：
+### 修改：
 1、transformer：
 增加MoEFFN、MoEDeformableTransformerDecoderLayer
 修改DeformableTransformerDecoder
@@ -48,7 +50,7 @@ forward加入传回moe_expert_indices
 4、ultralytics/models/utils/loss.py
 增加了moe_loss的修改
 
-测试结果：
+### 测试结果：
 结果保存在runs_origin/val_val/moe2_1
 map：33.6
 ap50：53.5

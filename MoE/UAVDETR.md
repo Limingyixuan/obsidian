@@ -49,9 +49,13 @@ forward加入传回moe_expert_indices
 增加了moe_loss的修改
 
 测试结果：
-
+结果保存在runs_origin/val_val/moe2_1
+map：33.6
+ap50：53.5
+GFLOPs 161.4 
 ![](image/Pasted%20image%2020260202122909.png)
 
+uavdetr-r50 summary: 565 layers, 47381822 parameters, 0 gradients, 161.4 GFLOPs
 
 ## 文件说明：
 保存图片条件的txt文件每个文件一行，

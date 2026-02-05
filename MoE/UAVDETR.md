@@ -72,3 +72,5 @@ tensorboard --logdir=./output/visdrone/result1/tensorboard --port=6006
 
 ## visdrone按场景划分：
 1、低光
+uavdetr：
+![](image/Pasted%20image%2020260205150025.png)

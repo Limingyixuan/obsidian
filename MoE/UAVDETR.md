@@ -74,3 +74,8 @@ tensorboard --logdir=./output/visdrone/result1/tensorboard --port=6006
 1、低光
 uavdetr：
 ![](image/Pasted%20image%2020260205150025.png)
+
+2、雾天：
+![](image/Pasted%20image%2020260205150829.png)
+
+3、小目标

@@ -69,3 +69,6 @@ uavdetr-r50 summary: 565 layers, 47381822 parameters, 0 gradients, 161.4 GFLOPs
 每行代表的意义：是否低光(0=无/1=是)	是否雾天(0=无/1=是)	目标是否密集(0=无/1=是)	目标是否空旷(0=无/1=是)
 ### 查看loss：
 tensorboard --logdir=./output/visdrone/result1/tensorboard --port=6006
+
+## visdrone按场景划分：
+1、低光

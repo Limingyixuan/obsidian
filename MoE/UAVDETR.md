@@ -79,3 +79,7 @@ uavdetr：
 ![](image/Pasted%20image%2020260205150829.png)
 
 3、小目标
+![](image/Pasted%20image%2020260205150953.png)
+
+4、正常目标：
+![](image/Pasted%20image%2020260205151037.png)

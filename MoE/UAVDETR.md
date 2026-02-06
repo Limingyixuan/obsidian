@@ -83,3 +83,9 @@ uavdetr：
 
 4、正常目标：
 ![](image/Pasted%20image%2020260205151037.png)
+
+
+
+moe2：
+1、
+![](image/Pasted%20image%2020260206153400.png)

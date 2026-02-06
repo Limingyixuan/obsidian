@@ -74,18 +74,44 @@ tensorboard --logdir=./output/visdrone/result1/tensorboard --port=6006
 1、低光
 uavdetr：
 ![](image/Pasted%20image%2020260205150025.png)
-
+51.8
+31.8
 2、雾天：
 ![](image/Pasted%20image%2020260205150829.png)
+55
+33
+
 
 3、小目标
 ![](image/Pasted%20image%2020260205150953.png)
 
+52.5
+32.6
+
+
 4、正常目标：
 ![](image/Pasted%20image%2020260205151037.png)
-
+60.4
+40.9
 
 
 moe2：
 1、
-![](image/Pasted%20image%2020260206153400.png)
+![](image/Pasted%20image%2020260206153500.png)
+53.5
+32.9
+2、
+56.6
+34.4
+![](image/Pasted%20image%2020260206153607.png)
+
+
+3、
+52.6
+33
+![](image/Pasted%20image%2020260206153729.png)
+
+4、
+61.6
+42.3
+![](image/Pasted%20image%2020260206153820.png)

@@ -20,8 +20,21 @@
               "icon": "lucide-file",
               "title": "UAVDETR"
             }
+          },
+          {
+            "id": "56b613f6b2ebd56c",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.11.7"
+              },
+              "icon": "lucide-book-up",
+              "title": "版本说明 1.11.7"
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -140,13 +153,12 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "MoE/UAVDETR.md",
                 "followCursor": true,
                 "showSearch": true,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "UAVDETR 的大纲"
+              "title": "大纲"
             }
           },
           {
@@ -188,7 +200,7 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "cd83f062ca1dbb3d",
+  "active": "56b613f6b2ebd56c",
   "lastOpenFiles": [
     "MoE/image/Pasted image 20260206153820.png",
     "MoE/image/Pasted image 20260206153729.png",

@@ -13,28 +13,15 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "MoE/UAVDETR.md",
+                "file": "leetcode.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "UAVDETR"
-            }
-          },
-          {
-            "id": "4af9fbf2633691c4",
-            "type": "leaf",
-            "state": {
-              "type": "release-notes",
-              "state": {
-                "currentVersion": "1.12.4"
-              },
-              "icon": "lucide-book-up",
-              "title": "版本说明 1.12.4"
+              "title": "leetcode"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -153,12 +140,13 @@
             "state": {
               "type": "outline",
               "state": {
+                "file": "leetcode.md",
                 "followCursor": true,
                 "showSearch": true,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "大纲"
+              "title": "leetcode 的大纲"
             }
           },
           {
@@ -200,8 +188,10 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "4af9fbf2633691c4",
+  "active": "cd83f062ca1dbb3d",
   "lastOpenFiles": [
+    "MoE/UAVDETR.md",
+    "leetcode.md",
     "MoE/image/Pasted image 20260206153820.png",
     "MoE/image/Pasted image 20260206153729.png",
     "MoE/image/Pasted image 20260206153607.png",
@@ -212,10 +202,8 @@
     "MoE/image/Pasted image 20260205150829.png",
     "MoE/image/Pasted image 20260205150025.png",
     "MoE/image/Pasted image 20260202122909.png",
-    "MoE/image/Pasted image 20260123141142.png",
     "MoE/DAMEX.md",
     "未命名.canvas",
-    "MoE/UAVDETR.md",
     "LLM/GPT.md",
     "1.md",
     "MoE/SM3Det（写论文的时候可以用上）.md",

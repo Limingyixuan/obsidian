@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "MoE/UAVDETR.md",
+                "file": "job/leetcode.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "UAVDETR"
+              "title": "leetcode"
             }
           }
         ]
@@ -140,13 +140,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "MoE/UAVDETR.md",
+                "file": "job/leetcode.md",
                 "followCursor": true,
                 "showSearch": true,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "UAVDETR 的大纲"
+              "title": "leetcode 的大纲"
             }
           },
           {
@@ -190,11 +190,11 @@
   },
   "active": "cd83f062ca1dbb3d",
   "lastOpenFiles": [
+    "MoE/UAVDETR.md",
     "job/深度学习.md",
     "job/transformer.md",
     "job/leetcode.md",
     "job",
-    "MoE/UAVDETR.md",
     "MoE/image/Pasted image 20260206153820.png",
     "MoE/image/Pasted image 20260206153729.png",
     "MoE/image/Pasted image 20260206153607.png",

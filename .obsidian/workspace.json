@@ -190,9 +190,13 @@
   },
   "active": "cd83f062ca1dbb3d",
   "lastOpenFiles": [
+    "MoE/image/Pasted image 20260123140902.png",
+    "MoE/image/origin.png",
+    "MoE/UAVDETR.md",
+    "MoE/image/Pasted image 20260123141142.png",
+    "MoE/image/moe.png",
     "job/transformer.md",
     "job/leetcode.md",
-    "MoE/UAVDETR.md",
     "job/深度学习.md",
     "job",
     "MoE/image/Pasted image 20260206153820.png",
@@ -202,9 +206,6 @@
     "MoE/image/Pasted image 20260206153400.png",
     "MoE/image/Pasted image 20260205151037.png",
     "MoE/image/Pasted image 20260205150953.png",
-    "MoE/image/Pasted image 20260205150829.png",
-    "MoE/image/Pasted image 20260205150025.png",
-    "MoE/image/Pasted image 20260202122909.png",
     "MoE/DAMEX.md",
     "未命名.canvas",
     "LLM/GPT.md",
@@ -238,7 +239,6 @@
     "聚类算法",
     "UAV/小目标检测.md",
     "UAV/DETR.md",
-    "UAV/llm.md",
     "english/未命名.canvas"
   ]
 }

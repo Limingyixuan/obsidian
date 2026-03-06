@@ -7,4 +7,5 @@
 3、引进了改进的anchor box-通过训练集聚类获得先验的anchor box的边框大小：
 **在每个grid cell预先设定一组不同大小和宽高比的边框，来覆盖整个图像的不同位置和多种尺度**。
 
-二、yolov
+## 二、yolov3
+1、采用 leaky ReLU作为激活函数

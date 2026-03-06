@@ -13,5 +13,5 @@
 
 v3的改进之处：
 - 多尺度预测（引入FPN）多尺度的特征图
-- 更好的backbone(darknet-53,类似于[ResNet](https://zhida.zhihu.com/search?content_id=213655736&content_type=Article&match_order=1&q=ResNet&zhida_source=entity)引入残差结构)
+- 更好的backbone(darknet-53,类似于[ResNet](https://zhida.zhihu.com/search?content_id=213655736&content_type=Article&match_order=1&q=ResNet&zhida_source=entity)引入残差结构)**没有池化层和全连接层**，张量的尺寸变换是通过改变卷积核的步长来实现的
 - 分类器不再使用softmax(darknet-19中使用)，损失函数中采用binary cross-entropy loss（二分类交叉损失熵）

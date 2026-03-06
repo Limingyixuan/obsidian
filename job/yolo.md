@@ -1,5 +1,10 @@
 
-1、yolov2：
-引进了batch nomalization
-输入图片的尺寸修改
-引进了改进的anchor box-通过训练集聚类获得先验的anchor box
+## 一、yolov2：
+1、引进了batch nomalization
+
+2、使用了预训练，先用224 * 224的图片进行训练160，再换成448 448的训练10输入图片的尺寸修改
+
+3、引进了改进的anchor box-通过训练集聚类获得先验的anchor box的边框大小：
+**在每个grid cell预先设定一组不同大小和宽高比的边框，来覆盖整个图像的不同位置和多种尺度**。
+
+二、yolov

@@ -46,5 +46,5 @@ SPPF：
 - width（通道数）
 - stage（特征金字塔数量）
 
-
-
+## YOLOv8
+backbone由yolov5的c3模块改成c2f模块

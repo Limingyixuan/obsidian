@@ -17,3 +17,4 @@ v3的改进之处：
 - 分类器不再使用softmax(darknet-19中使用)而是使用logistic分类器，损失函数中采用binary cross-entropy loss（二分类交叉损失熵）以适用重叠类别物体的检测
 
 ## 三、yolov4
+1、mosaic数据增强：丰富数据集，有利于小目标的检测性能

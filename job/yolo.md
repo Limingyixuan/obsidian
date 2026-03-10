@@ -47,4 +47,5 @@ SPPF：
 - stage（特征金字塔数量）
 
 ## YOLOv8
-backbone由yolov5的c3模块改成c2f模块
+backbone由yolov5的c3模块改成c2f模块：
+c2f模块多了tensor的拆分，经过bottleneck的部分

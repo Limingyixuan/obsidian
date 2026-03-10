@@ -48,4 +48,5 @@ SPPF：
 
 ## YOLOv8
 backbone由yolov5的c3模块改成c2f模块：
-c2f模块多了tensor的拆分，经过bottleneck的部分
+c2f模块多了tensor的split拆分，其中一部分经过n层的bottleneck的
+**原始拆分的两个分支** + **n 个 Bottleneck 的输出**全部`Concat`，此时通道数为`0.5×(n+2)×c_out`（包含了更多细节和梯度信息）。

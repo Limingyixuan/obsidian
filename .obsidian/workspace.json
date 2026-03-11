@@ -174,7 +174,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 560.5
+    "width": 200
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -188,7 +188,7 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "7f8af64dad09023c",
+  "active": "1c1682595e4378c6",
   "lastOpenFiles": [
     "job/yolo.md",
     "MoE/UAVDETR.md",

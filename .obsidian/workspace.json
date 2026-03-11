@@ -190,6 +190,8 @@
   },
   "active": "7f8af64dad09023c",
   "lastOpenFiles": [
+    "job/image/Pasted image 20260311215153.png",
+    "job/image",
     "job/transformer.md",
     "job/yolo.md",
     "MoE/UAVDETR.md",
@@ -236,9 +238,7 @@
     "空对地目标检测/目标追踪/Learning an Adaptive and View-Invariant Vision  Transformer for Real-Time UAV Tracking.md",
     "空对地目标检测/目标追踪",
     "空对地目标检测/未命名.md",
-    "聚类算法/image",
     "UAV/小目标检测.md",
-    "UAV/DETR.md",
     "english/未命名.canvas"
   ]
 }

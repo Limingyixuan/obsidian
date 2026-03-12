@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "job/transformer.md",
+                "file": "job/计算机视觉：.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "transformer"
+              "title": "计算机视觉："
             }
           }
         ]
@@ -140,13 +140,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "job/transformer.md",
+                "file": "job/计算机视觉：.md",
                 "followCursor": true,
                 "showSearch": true,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "transformer 的大纲"
+              "title": "计算机视觉： 的大纲"
             }
           },
           {
@@ -190,12 +190,13 @@
   },
   "active": "7f8af64dad09023c",
   "lastOpenFiles": [
+    "job/transformer.md",
+    "job/计算机视觉：.md",
     "job/深度学习.md",
     "MoE/UAVDETR.md",
     "MoE/DAMEX.md",
     "job/image/Pasted image 20260311215153.png",
     "job/image",
-    "job/transformer.md",
     "job/yolo.md",
     "未命名",
     "MoE/image/Pasted image 20260123140902.png",

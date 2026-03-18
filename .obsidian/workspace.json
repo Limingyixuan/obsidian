@@ -4,21 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "b8bf813afb5de057",
+        "id": "3abe7b1baac52649",
         "type": "tabs",
         "children": [
           {
-            "id": "7f8af64dad09023c",
+            "id": "cd082c8db4a16ad9",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "job/leetcode.md",
-                "mode": "source",
-                "source": false
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "leetcode"
+              "title": "新标签页"
             }
           }
         ]
@@ -140,13 +136,12 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "job/leetcode.md",
                 "followCursor": true,
                 "showSearch": true,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "leetcode 的大纲"
+              "title": "大纲"
             }
           },
           {
@@ -188,13 +183,14 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "7f8af64dad09023c",
+  "active": "cd082c8db4a16ad9",
   "lastOpenFiles": [
+    "MoE/DAMEX.md",
+    "job/leetcode.md",
     "job/计算机视觉：.md",
     "job/transformer.md",
     "job/深度学习.md",
     "MoE/UAVDETR.md",
-    "MoE/DAMEX.md",
     "job/image/Pasted image 20260311215153.png",
     "job/image",
     "job/yolo.md",
@@ -203,7 +199,6 @@
     "MoE/image/origin.png",
     "MoE/image/Pasted image 20260123141142.png",
     "MoE/image/moe.png",
-    "job/leetcode.md",
     "job",
     "MoE/image/Pasted image 20260206153820.png",
     "MoE/image/Pasted image 20260206153729.png",

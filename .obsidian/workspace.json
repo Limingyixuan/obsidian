@@ -11,10 +11,14 @@
             "id": "cd082c8db4a16ad9",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "job/VLM.md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "新标签页"
+              "title": "VLM"
             }
           }
         ]
@@ -136,12 +140,13 @@
             "state": {
               "type": "outline",
               "state": {
+                "file": "job/VLM.md",
                 "followCursor": true,
                 "showSearch": true,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "大纲"
+              "title": "VLM 的大纲"
             }
           },
           {
@@ -185,6 +190,8 @@
   },
   "active": "cd082c8db4a16ad9",
   "lastOpenFiles": [
+    "job/image/Pasted image 20260319104818.png",
+    "job/VLM.md",
     "MoE/DAMEX.md",
     "job/leetcode.md",
     "job/计算机视觉：.md",
@@ -232,8 +239,6 @@
     "drone_cv/readme.md",
     "空对地目标检测/目标追踪/Learning an Adaptive and View-Invariant Vision  Transformer for Real-Time UAV Tracking.md",
     "空对地目标检测/目标追踪",
-    "空对地目标检测/未命名.md",
-    "UAV/小目标检测.md",
     "english/未命名.canvas"
   ]
 }

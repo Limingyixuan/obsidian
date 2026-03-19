@@ -57,7 +57,18 @@ clip的零样本效果高度依赖文本提示与图像的匹配度，提示词�
 | 对组合性概念理解差，无法很好处理 “属性 + 物体” 的组合推理（如红色的杯子、蓝色的桌子） | 引入组合性对比学习，加入合成的组合概念图文对，提升模型的组合推理能力               |
 | 计算成本高，大模型推理速度慢，落地门槛高                           | 模型量化、剪枝、蒸馏，推出轻量化版本；优化编码器结构，提升推理效率                |
 
+## ALIGN
+与CLIP类似
+
+
+
+
 
 ## BERT：
-
+输入文本 ---- 向量编码----往下
 12层和24层transformer encoder组成两套BERT分别为110M和340M
+embedding：
+三种embedding求和而成
+Token embeding + segment Embedding + position Embedding
+
+Token Embeddings：第一个词是CLS，可用于之后的分类任务

@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "job/刷题计划.md",
+                "file": "job/单选多选.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "刷题计划"
+              "title": "单选多选"
             }
           }
         ]
@@ -140,13 +140,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "job/刷题计划.md",
+                "file": "job/单选多选.md",
                 "followCursor": true,
                 "showSearch": true,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "刷题计划 的大纲"
+              "title": "单选多选 的大纲"
             }
           },
           {
@@ -190,9 +190,10 @@
   },
   "active": "83e731595d5c0c36",
   "lastOpenFiles": [
-    "().md",
+    "job/计算机视觉：.md",
     "job/刷题计划.md",
     "job/VLM.md",
+    "().md",
     "job/yolo.md",
     "MoE/FAMHE-Net.md",
     "1.md",
@@ -200,7 +201,6 @@
     "job/LLM.md",
     "CLIP.md",
     "job/深度学习.md",
-    "job/计算机视觉：.md",
     "job/单选多选.md",
     "未命名 2.canvas",
     "job/image/Pasted image 20260320194537.png",

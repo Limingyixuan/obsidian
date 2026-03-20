@@ -77,3 +77,35 @@ embedding：
 Token embeding + segment Embedding + position Embedding
 
 Token Embeddings：第一个词是CLS，可用于之后的分类任务
+
+
+
+
+## LLAVA：
+- 1. 提出了新的多模态模型训练方法：可以通过 instruction-following 数据进行训练；
+- 2. 提出了一个新的 instruction-following 数据集；
+- 3. 代码数据全部开源，方便复现。
+
+### 微调范式：
+[指令微调](https://zhida.zhihu.com/search?content_id=240455086&content_type=Article&match_order=1&q=%E6%8C%87%E4%BB%A4%E5%BE%AE%E8%B0%83&zhida_source=entity)（Instruction Tuning）[提示微调](https://zhida.zhihu.com/search?content_id=240455086&content_type=Article&match_order=1&q=%E6%8F%90%E7%A4%BA%E5%BE%AE%E8%B0%83&zhida_source=entity)（Prompt Tuning）是大语言模型（LLM）中常用的两种微调范式。
+
+**指令微调（Instruction Tuning）**
+
+通过在训练过程中直接向模型提供明确的指令来优化模型性能的方法。这种方法强调在模型训练时加入具体的任务指令，使得模型能够更好地理解和执行特定的任务。
+
+**提示微调（Prompt Tuning）**
+
+提示微调是一种轻量级的微调方法，它通过向模型输入特定的prompt来引导模型的输出，而不需要对模型进行大规模的重新训练。
+
+
+**相同点**
+
+指令微调和提示微调的目的都是去挖掘语言模型本身具备的知识。
+
+
+
+
+
+
+### 结构图
+![](image/Pasted%20image%2020260320111318.png)

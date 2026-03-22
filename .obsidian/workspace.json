@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "job/单选多选.md",
+                "file": "job/VLM.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "单选多选"
+              "title": "VLM"
             }
           }
         ]
@@ -140,13 +140,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "job/单选多选.md",
+                "file": "job/VLM.md",
                 "followCursor": true,
                 "showSearch": true,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "单选多选 的大纲"
+              "title": "VLM 的大纲"
             }
           },
           {
@@ -190,6 +190,13 @@
   },
   "active": "83e731595d5c0c36",
   "lastOpenFiles": [
+    "job/LLM.md",
+    "job/transformer.md",
+    "job/leetcode.md",
+    "job/刷题计划.md",
+    "job/深度学习.md",
+    "job/计算机视觉：.md",
+    "job/单选多选.md",
     "job/image/Pasted image 20260320222004.png",
     "job/image/Pasted image 20260320221924.png",
     "job/image/Pasted image 20260320221907.png",
@@ -197,25 +204,17 @@
     "job/image/Pasted image 20260320221829.png",
     "job/image/Pasted image 20260320221536.png",
     "job/image/Pasted image 20260320221521.png",
-    "job/计算机视觉：.md",
-    "job/刷题计划.md",
     "job/VLM.md",
     "().md",
     "job/yolo.md",
     "MoE/FAMHE-Net.md",
     "1.md",
-    "job/transformer.md",
-    "job/LLM.md",
     "CLIP.md",
-    "job/深度学习.md",
-    "job/单选多选.md",
     "未命名 2.canvas",
     "job/image/Pasted image 20260320194537.png",
     "job/image/Pasted image 20260320180127.png",
     "job/image/Pasted image 20260320111318.png",
-    "job/image/Pasted image 20260319104818.png",
     "MoE/DAMEX.md",
-    "job/leetcode.md",
     "MoE/UAVDETR.md",
     "job/image",
     "未命名",

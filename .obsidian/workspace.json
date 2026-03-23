@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "job/transformer.md",
+                "file": "job/深度学习.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "transformer"
+              "title": "深度学习"
             }
           }
         ]
@@ -140,13 +140,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "job/transformer.md",
+                "file": "job/深度学习.md",
                 "followCursor": true,
                 "showSearch": true,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "transformer 的大纲"
+              "title": "深度学习 的大纲"
             }
           },
           {
@@ -190,14 +190,14 @@
   },
   "active": "83e731595d5c0c36",
   "lastOpenFiles": [
-    "job/VLM.md",
-    "job/yolo.md",
-    "job/深度学习.md",
-    "job/transformer.md",
-    "job/LLM.md",
-    "job/leetcode.md",
     "job/刷题计划.md",
+    "job/leetcode.md",
+    "job/LLM.md",
+    "job/transformer.md",
+    "job/VLM.md",
+    "job/深度学习.md",
     "job/计算机视觉：.md",
+    "job/yolo.md",
     "job/单选多选.md",
     "job/image/Pasted image 20260320222004.png",
     "job/image/Pasted image 20260320221924.png",

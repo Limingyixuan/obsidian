@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "空对地目标检测/SPAR.md",
+                "file": "job/投递记录.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "SPAR"
+              "title": "投递记录"
             }
           }
         ]
@@ -140,13 +140,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "空对地目标检测/SPAR.md",
+                "file": "job/投递记录.md",
                 "followCursor": true,
                 "showSearch": true,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "SPAR 的大纲"
+              "title": "投递记录 的大纲"
             }
           },
           {
@@ -190,6 +190,8 @@
   },
   "active": "83e731595d5c0c36",
   "lastOpenFiles": [
+    "空对地目标检测/SPAR.md",
+    "job/投递记录.md",
     "MoE/UAVDETR.md",
     "MoE/SM3Det（写论文的时候可以用上）.md",
     "MoE/FAMHE-Net.md",
@@ -224,7 +226,6 @@
     "job/yolo.md",
     "job/leetcode.md",
     "job/刷题计划.md",
-    "job/单选多选.md",
     "未命名 2.canvas",
     "job/image",
     "未命名",
@@ -236,7 +237,6 @@
     "未命名 1.canvas",
     "MoE/未命名.canvas",
     "MoE/image",
-    "损失函数/关于多模态的损失函数.md",
     "MoE",
     "损失函数",
     "空对地目标检测/目标追踪",

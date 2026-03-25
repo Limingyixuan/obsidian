@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "job/矩阵.md",
+                "file": "job/机器学习.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "矩阵"
+              "title": "机器学习"
             }
           }
         ]
@@ -140,13 +140,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "job/矩阵.md",
+                "file": "job/机器学习.md",
                 "followCursor": true,
                 "showSearch": true,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "矩阵 的大纲"
+              "title": "机器学习 的大纲"
             }
           },
           {
@@ -190,9 +190,10 @@
   },
   "active": "83e731595d5c0c36",
   "lastOpenFiles": [
-    "job/概率论.md",
-    "job/矩阵.md",
     "job/计算机视觉：.md",
+    "job/机器学习.md",
+    "job/矩阵.md",
+    "job/概率论.md",
     "job/深度学习.md",
     "job/transformer.md",
     "job/image/Pasted image 20260324192535.png",
@@ -236,7 +237,6 @@
     "空对地目标检测/航空目标检测综述.md",
     "空对地目标检测/大模型应用于UAV目标检测.md",
     "空对地目标检测/IDEA/idea.md",
-    "聚类算法/当前思路：.md",
     "MoE",
     "损失函数",
     "空对地目标检测/目标追踪",

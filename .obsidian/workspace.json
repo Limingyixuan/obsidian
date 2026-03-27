@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "MoE/UAVDETR.md",
+                "file": "job/投递记录.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "UAVDETR"
+              "title": "投递记录"
             }
           }
         ]
@@ -140,13 +140,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "MoE/UAVDETR.md",
+                "file": "job/投递记录.md",
                 "followCursor": true,
                 "showSearch": true,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "UAVDETR 的大纲"
+              "title": "投递记录 的大纲"
             }
           },
           {
@@ -190,18 +190,21 @@
   },
   "active": "83e731595d5c0c36",
   "lastOpenFiles": [
+    "job/刷题计划.md",
+    "job/深度学习.md",
+    "job/矩阵.md",
+    "job/计算机视觉：.md",
+    "job/机器学习.md",
+    "job/概率论.md",
+    "job/单选多选.md",
+    "MoE/UAVDETR.md",
     "MoE/SM3Det（写论文的时候可以用上）.md",
     "MoE/Dynamic-DINO.md",
     "MoE/DAMEX.md",
-    "job/计算机视觉：.md",
-    "job/深度学习.md",
     "job/VLM.md",
-    "job/概率论.md",
-    "job/矩阵.md",
     "job/image/Pasted image 20260326142957.png",
     "job/投递记录.md",
     "空对地目标检测/SPAR.md",
-    "MoE/UAVDETR.md",
     "MoE/FAMHE-Net.md",
     "空对地目标检测/航空目标检测综述.md",
     "空对地目标检测/大模型应用于UAV目标检测.md",
@@ -214,7 +217,6 @@
     "1.md",
     "CLIP.md",
     "MoE/image/origin.png",
-    "job/机器学习.md",
     "job/image/Pasted image 20260324192535.png",
     "job/image/Pasted image 20260324192304.png",
     "job/image/Pasted image 20260324172454.png",
@@ -224,7 +226,6 @@
     "job/image/Pasted image 20260324143950.png",
     "job/image/Pasted image 20260324143624.png",
     "job/yolo.md",
-    "job/leetcode.md",
     "未命名 2.canvas",
     "job/image",
     "未命名",

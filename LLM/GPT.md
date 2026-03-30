@@ -32,6 +32,8 @@ GPT的贡献：
 
 
 ## BERT：
+12个或者24个transformerencoder堆叠而成
+
 Embedding：
 三种
 1、Token Embeddings 是词向量，第一个单词是CLS标志，可以用于之后的分类任务

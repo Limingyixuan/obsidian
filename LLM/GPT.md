@@ -40,3 +40,5 @@ Embedding：
 2、Segment Embeddings 用来区别两种句子，因为预训练不光做LM还要做以两个句子为输入的分类任务：
 Bert 能够处理句子对的分类任务，这类任务就是判断两个文本是否是语义相似的。句子对中的两个句子被简单的拼接在一起后送入模型中，Bert 如何区分一个句子对是两个句子呢？答案就是 Segment Embeddings。前一个句子是将0赋值给每个token，后一个句子是将1赋值给每个句子
 
+3、position embeddings：
+可学习的位置编码

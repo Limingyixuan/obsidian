@@ -31,4 +31,10 @@ GPT的贡献：
 ![](image/Pasted%20image%2020260330151330.png)
 
 
-## BERT
+## BERT：
+Embedding：
+三种
+1、Token Embeddings 是词向量，第一个单词是CLS标志，可以用于之后的分类任务
+2、Segment Embeddings 用来区别两种句子，因为预训练不光做LM还要做以两个句子为输入的分类任务：
+Bert 能够处理句子对的分类任务，这类任务就是判断两个文本是否是语义相似的。句子对中的两个句子被简单的拼接在一起后送入模型中，Bert 如何区分一个句子对是两个句子呢？答案就是 Segment Embeddings。前一个句子是将0赋值给每个token，后一个句子是将1赋值给每个句子
+

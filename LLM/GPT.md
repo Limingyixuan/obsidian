@@ -32,7 +32,7 @@ GPT的贡献：
 
 
 ## BERT：
-12个或者24个transformerencoder堆叠而成
+12个或者24个transformer encoder堆叠而成
 
 Embedding：
 三种

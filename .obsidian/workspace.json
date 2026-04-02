@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "LLM/GPT.md",
+                "file": "LLM/强化学习..md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "GPT"
+              "title": "强化学习."
             }
           }
         ]
@@ -140,13 +140,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "LLM/GPT.md",
+                "file": "LLM/强化学习..md",
                 "followCursor": true,
                 "showSearch": true,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "GPT 的大纲"
+              "title": "强化学习. 的大纲"
             }
           },
           {
@@ -190,7 +190,9 @@
   },
   "active": "83e731595d5c0c36",
   "lastOpenFiles": [
-    "LLM/强化学习.md",
+    "MoE/DAMEX.md",
+    "LLM/强化学习..md",
+    "LLM/GPT.md",
     "job/投递记录.md",
     "job/qwen3-vl微调.md",
     "LLM/image/Pasted image 20260401174140.png",
@@ -198,7 +200,6 @@
     "job/VLM：.md",
     "job/transformer.md",
     "MoE/SM3Det（写论文的时候可以用上）.md",
-    "LLM/GPT.md",
     "LLM/image/Pasted image 20260331112854.png",
     "LLM/image/Pasted image 20260330224718.png",
     "LLM/image/Pasted image 20260330152106.png",
@@ -212,7 +213,6 @@
     "job/单选多选.md",
     "MoE/UAVDETR.md",
     "MoE/Dynamic-DINO.md",
-    "MoE/DAMEX.md",
     "job/image/Pasted image 20260326142957.png",
     "空对地目标检测/SPAR.md",
     "MoE/FAMHE-Net.md",

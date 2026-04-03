@@ -20,21 +20,8 @@
               "icon": "lucide-file",
               "title": "强化学习"
             }
-          },
-          {
-            "id": "e7ee14280b13f50a",
-            "type": "leaf",
-            "state": {
-              "type": "release-notes",
-              "state": {
-                "currentVersion": "1.12.7"
-              },
-              "icon": "lucide-book-up",
-              "title": "版本说明 1.12.7"
-            }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -153,12 +140,13 @@
             "state": {
               "type": "outline",
               "state": {
+                "file": "LLM/强化学习.md",
                 "followCursor": true,
                 "showSearch": true,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "大纲"
+              "title": "强化学习 的大纲"
             }
           },
           {
@@ -200,8 +188,10 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "e7ee14280b13f50a",
+  "active": "83e731595d5c0c36",
   "lastOpenFiles": [
+    "LLM/image/Pasted image 20260403113137.png",
+    "LLM/image/Pasted image 20260403112955.png",
     "LLM/image/Pasted image 20260402223250.png",
     "LLM/image/Pasted image 20260402223156.png",
     "服务器复现/tiny-zero复现.md",
@@ -222,8 +212,6 @@
     "job/transformer.md",
     "MoE/SM3Det（写论文的时候可以用上）.md",
     "LLM/image/Pasted image 20260331112854.png",
-    "LLM/image/Pasted image 20260330224718.png",
-    "LLM/image/Pasted image 20260330152106.png",
     "job/矩阵.md",
     "job/刷题计划.md",
     "job/深度学习.md",

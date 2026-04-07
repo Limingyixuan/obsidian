@@ -28,7 +28,9 @@ KL散度在分类任务中，化简后得到的公式为交叉熵减去真实分
 
 模型
 
-### 词嵌入的方式：
-Word2Vec 
+### 分词的方式：
+BPE
+wordpiece
+sentencepiece
 
 ### batch N和LN的区别

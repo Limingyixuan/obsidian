@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "LLM/GPT.md",
+                "file": "job/transformer.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "GPT"
+              "title": "transformer"
             }
           }
         ]
@@ -140,13 +140,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "LLM/GPT.md",
+                "file": "job/transformer.md",
                 "followCursor": true,
                 "showSearch": true,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "GPT 的大纲"
+              "title": "transformer 的大纲"
             }
           },
           {
@@ -190,6 +190,7 @@
   },
   "active": "83e731595d5c0c36",
   "lastOpenFiles": [
+    "LLM/GPT.md",
     "job/单选多选.md",
     "job/概率论.md",
     "job/机器学习.md",
@@ -203,7 +204,6 @@
     "job/transformer.md",
     "job/VLM：.md",
     "LLM/强化学习.md",
-    "LLM/GPT.md",
     "job/投递记录.md",
     "job/image/Pasted image 20260407161655.png",
     "job/image/Pasted image 20260407161545.png",

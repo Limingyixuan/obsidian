@@ -11,5 +11,12 @@
 
 
 ### KL散度和交叉熵：
+![](image/Pasted%20image%2020260407161529.png)
 
+![](image/Pasted%20image%2020260407161536.png)
+
+![](image/Pasted%20image%2020260407161545.png)
+
+
+![](image/Pasted%20image%2020260407161655.png)
 

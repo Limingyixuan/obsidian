@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "LLM/强化学习.md",
+                "file": "job/transformer.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "强化学习"
+              "title": "transformer"
             }
           }
         ]
@@ -140,13 +140,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "LLM/强化学习.md",
+                "file": "job/transformer.md",
                 "followCursor": true,
                 "showSearch": true,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "强化学习 的大纲"
+              "title": "transformer 的大纲"
             }
           },
           {
@@ -190,6 +190,7 @@
   },
   "active": "83e731595d5c0c36",
   "lastOpenFiles": [
+    "LLM/强化学习.md",
     "LLM/image/Pasted image 20260403161401.png",
     "LLM/image/Pasted image 20260403161358.png",
     "LLM/image/Pasted image 20260403154242.png",
@@ -200,10 +201,8 @@
     "LLM/image/Pasted image 20260403113137.png",
     "LLM/image/Pasted image 20260403112955.png",
     "LLM/image/Pasted image 20260402223250.png",
-    "LLM/image/Pasted image 20260402223156.png",
     "服务器复现/tiny-zero复现.md",
     "服务器复现/image",
-    "LLM/强化学习.md",
     "服务器复现",
     "MoE/DAMEX.md",
     "LLM/GPT.md",

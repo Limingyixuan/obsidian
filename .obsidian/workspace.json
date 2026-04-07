@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "job/transformer.md",
+                "file": "LLM/GPT.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "transformer"
+              "title": "GPT"
             }
           }
         ]
@@ -140,13 +140,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "job/transformer.md",
+                "file": "LLM/GPT.md",
                 "followCursor": true,
                 "showSearch": true,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "transformer 的大纲"
+              "title": "GPT 的大纲"
             }
           },
           {
@@ -190,18 +190,25 @@
   },
   "active": "83e731595d5c0c36",
   "lastOpenFiles": [
+    "job/单选多选.md",
+    "job/概率论.md",
+    "job/机器学习.md",
     "job/计算机视觉：.md",
+    "job/矩阵.md",
+    "job/刷题计划.md",
     "job/深度学习.md",
-    "job/投递记录.md",
+    "job/leetcode.md",
     "job/LLM.md",
     "job/qwen3-vl微调.md",
     "job/transformer.md",
     "job/VLM：.md",
+    "LLM/强化学习.md",
+    "LLM/GPT.md",
+    "job/投递记录.md",
     "job/image/Pasted image 20260407161655.png",
     "job/image/Pasted image 20260407161545.png",
     "job/image/Pasted image 20260407161536.png",
     "job/image/Pasted image 20260407161529.png",
-    "LLM/强化学习.md",
     "LLM/image/Pasted image 20260403161401.png",
     "LLM/image/Pasted image 20260403161358.png",
     "LLM/image/Pasted image 20260403154242.png",
@@ -212,13 +219,7 @@
     "服务器复现/image",
     "服务器复现",
     "MoE/DAMEX.md",
-    "LLM/GPT.md",
     "MoE/SM3Det（写论文的时候可以用上）.md",
-    "job/矩阵.md",
-    "job/刷题计划.md",
-    "job/机器学习.md",
-    "job/概率论.md",
-    "job/单选多选.md",
     "MoE/UAVDETR.md",
     "MoE/Dynamic-DINO.md",
     "空对地目标检测/SPAR.md",

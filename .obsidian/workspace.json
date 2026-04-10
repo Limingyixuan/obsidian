@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "job/问题：.md",
+                "file": "密码/GPT.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "问题："
+              "title": "GPT"
             }
           }
         ]
@@ -140,13 +140,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "job/问题：.md",
+                "file": "密码/GPT.md",
                 "followCursor": true,
                 "showSearch": true,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "问题： 的大纲"
+              "title": "GPT 的大纲"
             }
           },
           {
@@ -190,10 +190,12 @@
   },
   "active": "83e731595d5c0c36",
   "lastOpenFiles": [
+    "job/问题：.md",
+    "密码/GPT.md",
+    "密码",
     "job/image/Pasted image 20260410160554.png",
     "job/image/Pasted image 20260410160542.png",
     "job/投递记录.md",
-    "job/问题：.md",
     "job/刷题计划.md",
     "job/transformer.md",
     "LLM/GPT.md",
@@ -216,7 +218,6 @@
     "LLM/image/Pasted image 20260403161358.png",
     "LLM/image/Pasted image 20260403154242.png",
     "LLM/image/Pasted image 20260403154203.png",
-    "LLM/image/Pasted image 20260403154145.png",
     "服务器复现/tiny-zero复现.md",
     "服务器复现/image",
     "服务器复现",
@@ -239,7 +240,6 @@
     "未命名 1.canvas",
     "MoE/未命名.canvas",
     "MoE/image",
-    "MoE",
     "english/未命名.canvas"
   ]
 }

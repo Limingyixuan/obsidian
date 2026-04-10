@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "job/投递记录.md",
+                "file": "job/问题：.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "投递记录"
+              "title": "问题："
             }
           }
         ]
@@ -140,13 +140,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "job/投递记录.md",
+                "file": "job/问题：.md",
                 "followCursor": true,
                 "showSearch": true,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "投递记录 的大纲"
+              "title": "问题： 的大纲"
             }
           },
           {
@@ -190,6 +190,8 @@
   },
   "active": "83e731595d5c0c36",
   "lastOpenFiles": [
+    "job/投递记录.md",
+    "job/问题：.md",
     "job/刷题计划.md",
     "job/transformer.md",
     "LLM/GPT.md",
@@ -204,7 +206,6 @@
     "job/qwen3-vl微调.md",
     "job/VLM：.md",
     "LLM/强化学习.md",
-    "job/投递记录.md",
     "job/image/Pasted image 20260407161655.png",
     "job/image/Pasted image 20260407161545.png",
     "job/image/Pasted image 20260407161536.png",
@@ -227,7 +228,6 @@
     "空对地目标检测/航空目标检测综述.md",
     "空对地目标检测/大模型应用于UAV目标检测.md",
     "空对地目标检测/Shooting condition（LGNet）/Text prompt embedding fine-tuning.md",
-    "空对地目标检测/Shooting condition（LGNet）/Shooting condition insensitive unmanned aerial vehicle object detection.md",
     "未命名 2.canvas",
     "job/image",
     "未命名",

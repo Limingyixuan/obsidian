@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "3abe7b1baac52649",
+        "id": "6278992c03c496fb",
         "type": "tabs",
         "children": [
           {
-            "id": "83e731595d5c0c36",
+            "id": "ccfe5d64e57c5d0d",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -142,7 +142,7 @@
               "state": {
                 "file": "job/简历准备.md",
                 "followCursor": true,
-                "showSearch": true,
+                "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
@@ -170,7 +170,7 @@
             }
           }
         ],
-        "currentTab": 5
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
@@ -188,11 +188,13 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "83e731595d5c0c36",
+  "active": "1c1682595e4378c6",
   "lastOpenFiles": [
+    "未命名 1.base",
+    "未命名.base",
+    "job/简历准备.md",
     "job/矩阵.md",
     "密码/GPT.md",
-    "job/简历准备.md",
     "密码",
     "job/image/Pasted image 20260410160554.png",
     "job/image/Pasted image 20260410160542.png",
@@ -228,7 +230,6 @@
     "空对地目标检测/SPAR.md",
     "MoE/FAMHE-Net.md",
     "空对地目标检测/航空目标检测综述.md",
-    "空对地目标检测/大模型应用于UAV目标检测.md",
     "未命名 2.canvas",
     "job/image",
     "未命名",
@@ -239,7 +240,6 @@
     "LLM",
     "未命名 1.canvas",
     "MoE/未命名.canvas",
-    "MoE/image",
     "english/未命名.canvas"
   ]
 }

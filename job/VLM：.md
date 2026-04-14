@@ -17,8 +17,25 @@
 变为patch patch个patch（512 * 512 变成 16 * 16个patch）
 每个 patch 的大小是：p p c
 展平后就变成一个向量：p^2  C
+每个 patch 可以看成一个 768 维向量。
+#### 2、添加位置编码
+Transformer 自注意力本身并不知道 token 的顺序。
 
-#### 2、切 patch
+在 NLP 里，如果不给位置信息，模型只知道“有哪些词”，不知道“谁在前谁在后”。
+
+图像也是一样：
+
+- patch A 在左上角
+- patch B 在右下角
+
+如果没有位置信息，Transformer 不知道它们的空间位置差别。
+
+所以，需要给每个 patch 加一个**位置编码**。
+![](image/Pasted%20image%2020260414220134.png)
+
+
+
+
 
 
 

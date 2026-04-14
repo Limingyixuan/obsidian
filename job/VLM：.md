@@ -1,5 +1,27 @@
 ## 后续要看
 ## LLaVA、GPT-like、Otter、Sora
+
+
+
+
+## VIT
+
+### 1、图像处理过程：
+- 一张图像 = 一段“视觉句子”
+- 每个 patch = 一个“视觉单词”
+- Transformer = 建模这些 patch 之间的全局关系
+
+### 2. 输入图像怎么变成 Transformer 能吃的序列
+
+#### 1、图像为H W C变成patch
+变为patch patch个patch（512 * 512 变成 16 * 16个patch）
+每个 patch 的大小是：p p c
+展平后就变成一个向量：p^2  C
+
+#### 2、切 patch
+
+
+
 ## CLIP
 ### 1、原理：
 通过对比学习将文本和图像映射到同一语义空间，实现图像和文本的语义对齐

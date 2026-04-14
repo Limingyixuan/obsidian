@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "job/VLM：.md",
+                "file": "job/简历准备.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "VLM："
+              "title": "简历准备"
             }
           }
         ]
@@ -140,13 +140,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "job/VLM：.md",
+                "file": "job/简历准备.md",
                 "followCursor": true,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "VLM： 的大纲"
+              "title": "简历准备 的大纲"
             }
           },
           {
@@ -190,13 +190,17 @@
   },
   "active": "ccfe5d64e57c5d0d",
   "lastOpenFiles": [
+    "job/计算机视觉：.md",
+    "MoE/UAVDETR.md",
     "job/transformer.md",
     "job/qwen3-vl微调.md",
+    "job/LLM.md",
+    "MoE/SM3Det（写论文的时候可以用上）.md",
+    "job/VLM：.md",
     "job/刷题计划.md",
     "job/投递记录.md",
     "job/深度学习.md",
     "job/矩阵.md",
-    "job/计算机视觉：.md",
     "job/机器学习.md",
     "job/概率论.md",
     "UAV/多模态/多模态：.md",
@@ -212,8 +216,6 @@
     "LLM/GPT.md",
     "job/单选多选.md",
     "job/leetcode.md",
-    "job/LLM.md",
-    "job/VLM：.md",
     "LLM/强化学习.md",
     "job/image/Pasted image 20260407161655.png",
     "job/image/Pasted image 20260407161545.png",
@@ -226,8 +228,6 @@
     "服务器复现/image",
     "服务器复现",
     "MoE/DAMEX.md",
-    "MoE/SM3Det（写论文的时候可以用上）.md",
-    "MoE/UAVDETR.md",
     "MoE/Dynamic-DINO.md",
     "空对地目标检测/SPAR.md",
     "MoE/FAMHE-Net.md",

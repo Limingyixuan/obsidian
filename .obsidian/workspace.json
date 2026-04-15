@@ -171,7 +171,7 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 2
       }
     ],
     "direction": "horizontal",
@@ -189,7 +189,7 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "c0017f76c410e6cd",
+  "active": "344ad138cd3d4208",
   "lastOpenFiles": [
     "job/qwen3-vl微调.md",
     "job/transformer.md",

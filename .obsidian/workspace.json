@@ -74,8 +74,7 @@
               "title": "书签"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -113,11 +112,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "job/简历准备.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "出链"
+              "title": "简历准备 的出链列表"
             }
           },
           {
@@ -128,7 +128,7 @@
               "state": {
                 "sortOrder": "frequency",
                 "useHierarchy": false,
-                "showSearch": false,
+                "showSearch": true,
                 "searchQuery": ""
               },
               "icon": "lucide-tags",
@@ -171,7 +171,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
@@ -189,14 +189,15 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "344ad138cd3d4208",
+  "active": "1c1682595e4378c6",
   "lastOpenFiles": [
+    "job/简历准备.md",
+    "job/矩阵.md",
     "job/qwen3-vl微调.md",
     "job/transformer.md",
     "job/VLM：.md",
     "MoE/UAVDETR.md",
     "MoE/DAMEX.md",
-    "job/简历准备.md",
     "job/image/Pasted image 20260414220134.png",
     "job/image/Pasted image 20260414212221.png",
     "job/image/Pasted image 20260414144040.png",
@@ -207,7 +208,6 @@
     "job/刷题计划.md",
     "job/投递记录.md",
     "job/深度学习.md",
-    "job/矩阵.md",
     "job/机器学习.md",
     "job/概率论.md",
     "UAV/多模态/多模态：.md",

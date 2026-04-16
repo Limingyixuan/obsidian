@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "MoE/UAVDETR.md",
+                "file": "job/简历准备.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "UAVDETR"
+              "title": "简历准备"
             }
           }
         ]
@@ -141,13 +141,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "MoE/UAVDETR.md",
+                "file": "job/简历准备.md",
                 "followCursor": true,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "UAVDETR 的大纲"
+              "title": "简历准备 的大纲"
             }
           },
           {
@@ -191,6 +191,7 @@
   },
   "active": "c0017f76c410e6cd",
   "lastOpenFiles": [
+    "MoE/UAVDETR.md",
     "MoE/image/Pasted image 20260416223118.png",
     "job/简历准备.md",
     "job/深度学习.md",
@@ -199,7 +200,6 @@
     "job/机器学习.md",
     "job/概率论.md",
     "job/单选多选.md",
-    "MoE/UAVDETR.md",
     "MoE/DAMEX.md",
     "job/qwen3-vl微调.md",
     "job/transformer.md",
@@ -226,7 +226,6 @@
     "LLM/强化学习.md",
     "job/image/Pasted image 20260407161655.png",
     "job/image/Pasted image 20260407161545.png",
-    "job/image/Pasted image 20260407161536.png",
     "服务器复现/tiny-zero复现.md",
     "服务器复现/image",
     "服务器复现",

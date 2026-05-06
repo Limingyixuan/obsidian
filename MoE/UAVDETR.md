@@ -178,3 +178,11 @@ yolov11:
 
 ## 对比试验：
 ![](image/Pasted%20image%2020260416223118.png)
+
+
+## soft-moe
+
+运行前进行配置：
+```
+export LD_LIBRARY_PATH=$CONDA_PREFIX/lib:$LD_LIBRARY_PATH
+```

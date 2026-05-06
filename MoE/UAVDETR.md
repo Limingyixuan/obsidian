@@ -186,3 +186,11 @@ yolov11:
 ```
 export LD_LIBRARY_PATH=$CONDA_PREFIX/lib:$LD_LIBRARY_PATH
 ```
+
+
+
+![](image/Pasted%20image%2020260506165513.png)
+
+
+map50：0.541
+map：0.341

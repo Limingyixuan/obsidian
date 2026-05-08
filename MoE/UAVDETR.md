@@ -194,3 +194,14 @@ export LD_LIBRARY_PATH=$CONDA_PREFIX/lib:$LD_LIBRARY_PATH
 
 map50：0.541
 map：0.341
+
+
+第一版的scenequerymoe：
+
+实现方式为：来自前边的feats（全局特征信息）得到场景分配
+query信息得到小目标专家的选择
+最终统一softmax得到四个专家的选择权重
+效果一般
+![](image/Pasted%20image%2020260508101123.png)
+
+第二版修改：

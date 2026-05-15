@@ -189,7 +189,7 @@ export LD_LIBRARY_PATH=$CONDA_PREFIX/lib:$LD_LIBRARY_PATH
 
 
 
-![](image/Pasted%20image%2020260506165513.png)
+![457](image/Pasted%20image%2020260506165513.png)
 
 
 map50：0.541
@@ -202,7 +202,7 @@ map：0.341
 query信息得到小目标专家的选择
 最终统一softmax得到四个专家的选择权重
 效果一般
-![](image/Pasted%20image%2020260508101123.png)
+![457](image/Pasted%20image%2020260508101123.png)
 
 第二版修改：
 增加了两个损失函数，场景路由损失以及小目标路由损失，两者分开计算，
